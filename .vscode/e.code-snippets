@@ -1,0 +1,93 @@
+{
+	// Place your blog workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Alert" : {
+	"scope": "markdown",
+	"prefix": "alert",
+	"body": ["{% alert(${1|note,tip,important,warning,caution,edit,fact|}=true) %}",
+	"$2",
+	"{% end %}",
+	"$0"],
+	"description": "Insert an alert block"
+	},
+
+	"Image" : {
+		"scope": "markdown",
+		"prefix": "img",
+		"body": ["<!-- other values (transparent,no_hover,pixels,drop_shadow) can be set with *value*=true -->",
+		"{{ image(alt=\"$1\", ${2|transparent,no_hover,full,start,end|}=true${3|\\, , \\, spoiler=true , \\, spoiler=true\\, solid=true|}, url=\"$4\") }}",
+		"<figcaption>$1</figcaption>",
+		"$0",
+	],
+		"description": "Insert images with options"
+	},
+
+	"Video" : {
+		"scope": "markdown",
+		"prefix": "video",
+		"body": ["<!-- other values (transparent, autoplay, controls, loop, playsinline) can be set with *value*=true -->",
+		"{{ image(alt=\"$1\", playsinline=true, controls=true, ${2|transparent=true,start=true,end=true,loop=true,spoiler=true,spoiler=true\\, solid=true|}, url=\"$3\") }}",
+		"<figcaption>$1</figcaption>",
+		"$0",
+	],
+		"description": "Insert videos with options"
+	},
+
+	"CRT" : {
+		"scope": "markdown",
+		"prefix": "crt",
+		"body": ["{% crt() %}",
+		"$1",
+		"{% end %}",
+		"$0"],
+		"description": "Insert CRT effect"
+	},
+
+	"Audio" : {
+		"scope": "markdown",
+		"prefix": "audio",
+		"body": ["{{ audio(name=\"$1\", url=\"$2\") }}",
+		"$0"],
+		"description": "Inserts an audio button"
+	},
+
+	"Youtube" : {
+		"scope": "markdown",
+		"prefix": ["yt", "youtube"],
+	 // "body": ["{{ youtube(id=\"$1\", ${2|autoplay=true,start=true|}) }}",
+		"body": ["{{ youtube(autoplay=${1|true,false|}, start=\"$2\", id=\"$3\") }}",
+		"$0"],
+		"description": "Insert a YouTube video embed"
+	},
+
+	"Sitwatch" : {
+		"scope": "markdown",
+		"prefix": ["sitwatch","sw"],
+		"body": ["{{ sitwatch(id=\"$1\") }}",
+		"$0"],
+		"description": "Insert a Sitwatch video embed"
+	},
+ 	"Emoji" : {
+		"scope": "markdown",
+		"prefix": ["emoji","lemoji"],
+		"body": ["{{ lemoji( ${1|name,path|}=\"$2\", big=${3|true,false|}) }}",
+		"$0"],
+		"description": "Insert an emoji"
+	}
+
+}

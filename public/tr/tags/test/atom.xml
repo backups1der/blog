@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+    <title>blo(c)k - Test</title>
+    <subtitle>anins1der adlı birinin teknoloji, programlama ve diğer saçmalıklar hakkındaki blog&#x27;u.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://anins1der.com/tr/tags/test/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://anins1der.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-25T00:00:00+00:00</updated>
+    <id>https://anins1der.com/tr/tags/test/atom.xml</id>
+    <entry xml:lang="tr">
+        <title>Sitemi kan tadıyla test etmek (eved, kimsenin alamayacağı bir Portal referansı)</title>
+        <published>2025-10-25T00:00:00+00:00</published>
+        <updated>2025-02-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            anins1der
+          </name>
+        </author>
+        
+        <author>
+          <name>
+            Sparrow99
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://anins1der.com/tr/blog/demo/"/>
+        <id>https://anins1der.com/tr/blog/demo/</id>
+        
+        <content type="html" xml:base="https://anins1der.com/tr/blog/demo/">&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Syntax&lt;&#x2F;strong&gt;&lt;br&gt;
+Yazılar &lt;strong&gt;kalın&lt;&#x2F;strong&gt;, &lt;em&gt;italik&lt;&#x2F;em&gt;, &lt;del&gt;üstü çizili&lt;&#x2F;del&gt; olabilir, ve &lt;em&gt;&lt;strong&gt;&lt;del&gt;hemen hemen hepsi&lt;&#x2F;del&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; beraber kullanılıp karıştılarak kullanılabilir.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;anins1der.com&#x2F;tr&#x2F;demo&#x2F;page&#x2F;&quot;&gt;Başka bir sayfaya giden bir link&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Paragraflar arasında boşluk olmalıdır.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Dipnotlar&lt;&#x2F;strong&gt;&lt;br&gt;
+Dipnot örneği[^1].&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Başlıklar&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;baslik-1&quot;&gt;Başlık 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;baslik-2&quot;&gt;Başlık 2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;baslik-3&quot;&gt;Başlık 3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;baslik-4&quot;&gt;Başlık 4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;baslik-5&quot;&gt;Başlık 5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;baslik-6&quot;&gt;Başlık 6&lt;&#x2F;h6&gt;
+&lt;p&gt;Bu başlıktan sonra gelen bir paragraf[^2].&lt;&#x2F;p&gt;
+&lt;p&gt;😭😂🥺🤣❤️✨🙏😍🥰😊&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Alıntılar&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Orijinal içerik, eskimeden önce sadece birkaç saniyeliğine orijinaldir.”&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;İnternet’in 21. kuralı, 4chan’ın &#x2F;b&#x2F; panosu&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Listeler&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;eşya&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;eşya&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 eşya&lt;sup&gt;1&lt;&#x2F;sup&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2.2 eşya&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;eşya&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;4. eşya&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;İlk adımı atın&lt;&#x2F;li&gt;
+&lt;li&gt;İkinci adıma geçin.&lt;&#x2F;li&gt;
+&lt;li&gt;Üçüncü adımla sonuçlandırın.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Görev Listesi&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Süt&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Yumurtalar&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Un&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Kahve&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Yanıcı limonlar&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Resim&lt;&#x2F;strong&gt;
+&lt;img class=&quot;&quot;alt=&quot;Bolivya&amp;#x27;dan gelmiş taze ametrin&quot;src=&quot;.&amp;#x2F;ametrine.png&quot;&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Bolivya&#x27;dan gelmiş taze ametrin&lt;&#x2F;figcaption&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Tablolar&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Karakter&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Dizi&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Sözler&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Kemal Sunal&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Çarıklı Milyoner&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Zaten hıyara benziyordun; yoğurdu yedin, cacık oldun.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Kedi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;bN1shALfJqg&quot;&gt;Youtube videosu&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;OIIAIOIIIAI :3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Kod satırları&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Kısa kod satırları&lt;&#x2F;code&gt; metin içinde böyle gösterilir.&lt;&#x2F;p&gt;
+&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;Uzun, tek satırlık kod satırları cümle sonlarına doğru parçalanmamalı. Yeter kadar uzun olan satırlar sağa doğru uzar. Bu satır bunu gösterebilecek kadar uzun olmalı.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;rust&quot; class=&quot;language-rust z-code&quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;z-source z-rust&quot;&gt;&lt;span class=&quot;z-storage z-type z-rust&quot;&gt;let&lt;&#x2F;span&gt; highlight &lt;span class=&quot;z-keyword z-operator z-assignment z-rust&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-rust&quot;&gt;true&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rust&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-rust&quot;&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-rust&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-rust&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt; Çok satırlı kod bloklarında dil belirtilirse sözdizimi vurgulaması destekler.
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Kod satırlarında satır numaraları, belirli satırların vurgulanması, ve bazı satırların gizlenmesi de desteklenir.&lt;&#x2F;p&gt;
+&lt;pre data-linenos data-lang=&quot;scss&quot; class=&quot;language-scss z-code&quot;&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-css&quot;&gt;pre&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-css&quot;&gt;mark&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-begin z-css&quot;&gt;{&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;12&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-property-name z-css&quot;&gt;display&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-support z-constant z-property-value z-css&quot;&gt;block&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;13&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-property-name z-css&quot;&gt;color&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-support z-constant z-color z-w3c-special-color-keyword z-css&quot;&gt;currentcolor&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;&#x2F;td&gt;&lt;td&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-end z-css&quot;&gt;}&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;&#x2F;td&gt;&lt;td&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-css&quot;&gt;pre&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-css&quot;&gt;table&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-css&quot;&gt;td&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-css&quot;&gt;&lt;span class=&quot;z-entity z-other z-pseudo-class z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-entity z-css&quot;&gt;:&lt;&#x2F;span&gt;nth-of-type&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-css&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-numeric z-css&quot;&gt;1&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-css&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-begin z-css&quot;&gt;{&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;17&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-property-name z-css&quot;&gt;color&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-constant z-other z-color z-rgb-value z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-css&quot;&gt;#&lt;&#x2F;span&gt;6b6b6b&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark&gt;18&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-property-name z-css&quot;&gt;font-style&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-support z-constant z-property-value z-css&quot;&gt;italic&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;&#x2F;td&gt;&lt;td&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-end z-css&quot;&gt;}&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Uyarılar&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+&lt;p&gt;İçeriği süzerken bile kullanıcıların bilmesi gereken faydalı bilgiler.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-tip&quot;&gt;
+&lt;p&gt;Daha iyi veya daha kolay şeyler yapmak için faydalı tavsiyeler.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-important&quot;&gt;
+&lt;p&gt;Kullanıcıların hedeflerine ulaşmaları için bilmesi gereken önemli bilgiler.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-warning&quot;&gt;
+&lt;p&gt;Problemleri önlemek için kullanıcıların hemen dikkat etmesi gereken acil bilgiler.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-caution&quot;&gt;
+&lt;p&gt;Belirli eylemlerin riskleri veya olumsuz sonuçları hakkında tavsiyeler.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;kisa-kodlar&quot;&gt;Kısa kodlar&lt;&#x2F;h2&gt;
+&lt;p&gt;Ametrine birkaç &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;&quot;&gt;kısa kod&lt;&#x2F;a&gt; ile bazı görevleri basitleştirir. Tüm sayfalarda kullanılabilirler.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;uyarilar&quot;&gt;Uyarılar&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;get-started&#x2F;writing-on-github&#x2F;getting-started-with-writing-and-formatting-on-github&#x2F;basic-writing-and-formatting-syntax#alerts&quot;&gt;GitHub tarzı&lt;&#x2F;a&gt; uyarılar. İstenilen uyarının metnini kısa kod içine alarak istenen görünümü elde edebilirsiniz.&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+&lt;p&gt;0.21.0’inci versiyon itibarıyla, Zola bu kısa kod olmadan yerel olarak GitHub tarzı uyarıları desteklemektedir. Aşağıdakileri &lt;code&gt;config.toml&lt;&#x2F;code&gt; dosyasına ekleyerek etkinleştirilebilir:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; class=&quot;language-toml z-code&quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-table z-begin z-toml&quot;&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-tag z-table z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-table z-toml&quot;&gt;markdown&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-table z-end z-toml&quot;&gt;]&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-meta z-tag z-key z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-toml&quot;&gt;github_alerts&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-key-value z-toml&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-toml&quot;&gt;true&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Available alert types:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;note&lt;&#x2F;code&gt;: Kullanıcıların bilmesi gereken faydalı bilgiler, içeriği süzerken bile.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;tip&lt;&#x2F;code&gt;: Daha iyi veya daha kolay şeyler yapmak için faydalı tavsiyeler.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;important&lt;&#x2F;code&gt;: Kullanıcıların hedeflerine ulaşmaları için bilmesi gereken önemli bilgiler.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;warning&lt;&#x2F;code&gt;: Problemleri önlemek için kullanıcıların hemen dikkat etmesi gereken acil bilgiler.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;caution&lt;&#x2F;code&gt;: Belirli eylemlerin riskleri veya olumsuz sonuçları hakkında tavsiyeler.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;edit&lt;&#x2F;code&gt;: Bir şeyin düzenlendiğini belirtir.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;fact&lt;&#x2F;code&gt;: Bazı ilginç olmayan gerçekler.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-tag&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;{%&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-control z-jinja2&quot;&gt;alert&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;note&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-language z-jinja2&quot;&gt;true&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;%}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;-&amp;gt; Alert text &amp;lt;-
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-tag&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;{%&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-control z-jinja2&quot;&gt;end&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;%}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+	&lt;p&gt;Kullanıcıların bilmesi gereken faydalı bilgiler, içeriği süzerken bile.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-tip&quot;&gt;
+	&lt;p&gt;Daha iyi veya daha kolay şeyler yapmak için faydalı tavsiyeler.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-important&quot;&gt;
+	&lt;p&gt;Kullanıcıların hedeflerine ulaşmaları için bilmesi gereken önemli bilgiler.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-warning&quot;&gt;
+	&lt;p&gt;Problemleri önlemek için kullanıcıların hemen dikkat etmesi gereken acil bilgiler.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-caution&quot;&gt;
+	&lt;p&gt;Belirli eylemlerin riskleri veya olumsuz sonuçları hakkında tavsiyeler.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-edit&quot;&gt;
+	&lt;p&gt;Bir şeyin düzenlendiğini belirtir.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-fact&quot;&gt;
+	&lt;p&gt;Bazı ilginç olmayan gerçekler.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ben bir listeyim ve içinde bir &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;satır içi&lt;&#x2F;a&gt; linki var.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;resimler-ve-videolar&quot;&gt;Resimler ve videolar&lt;&#x2F;h3&gt;
+&lt;p&gt;Varsayıan olarak resimler ve videolar yuvarlatılmış köşeler ve gölge gibi bazı genel stillerle gelir. Bunları ince ayar yapmak için farklı değişken kombinasyonlarına sahip kısa kodlar kullanabilirsiniz.&lt;&#x2F;p&gt;
+&lt;p&gt;Kullanılabilir değişkenler:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;url&lt;&#x2F;code&gt;: Bir resmin URL’si.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;url_min&lt;&#x2F;code&gt;: Bir resmin sıkıştırılmış sürümüne giden URL, orijinal resim üzerine tıklanarak açılabilir.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;alt&lt;&#x2F;code&gt;: Alternatif metin, ekran okuyucuları ve mobilde resme basılı tutularak okunabilir.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;full&lt;&#x2F;code&gt;: Resmi tam genişlikte göstermeyi zorlar.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;start&lt;&#x2F;code&gt;: Resmi paragrafın başına yerleştirir ve boyutunu küçültür.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;end&lt;&#x2F;code&gt;: Resmi paragrafın sonuna yerleştirir ve boyutunu küçültür.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;pixels&lt;&#x2F;code&gt;: Ölçeklendirme için en yakın komşu algoritmasını kullanır, piksel sanatı keskin tutmak için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;transparent&lt;&#x2F;code&gt;: Yuvarlatılmış köşeleri ve gölgeyi kaldırır, şeffaflık içeren resimler için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;drop_shadow&lt;&#x2F;code&gt;: Kutu gölgesi yerine düşme gölgesi kullanır, şeffaflık içeren resimler için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;no_hover&lt;&#x2F;code&gt;: Üzerine gelindiğinde yakınlaştırmayı kaldırır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;spoiler&lt;&#x2F;code&gt;: Üzerine gelindiğinde&#x2F;basıldığında resmi bulanıklaştırır, zengin hikaye içeren oyun ekran görüntüleri için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;spoiler&lt;&#x2F;code&gt;ın yanında &lt;code&gt;solid&lt;&#x2F;code&gt;: Bulanıklığı kaldırıp resmi tamamen gizler.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;image&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;url&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;image.png&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;alt&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;Ben bir resimim&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;no_hover&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-language z-jinja2&quot;&gt;true&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;figure&gt;
+&lt;img class=&quot;no-hover&quot;alt=&quot;Portal silahı yapım şablonu&quot;src=&quot;https:&amp;#x2F;&amp;#x2F;i1.theportalwiki.net&amp;#x2F;img&amp;#x2F;2&amp;#x2F;23&amp;#x2F;Ashpd_blueprint.jpg&quot;&#x2F;&gt;
+&lt;figcaption&gt;Alternatif yazısı olan bir resim, ve üzerine gelindiğinde yakınlaştırma yok&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;upload.wikimedia.org&amp;#x2F;wikipedia&amp;#x2F;commons&amp;#x2F;b&amp;#x2F;b4&amp;#x2F;JPEG_example_JPG_RIP_100.jpg&quot;&gt;
+		&lt;img class=&quot;no-hover&quot;alt=&quot;The gravestone of J.P.G.&quot;src=&quot;https:&amp;#x2F;&amp;#x2F;upload.wikimedia.org&amp;#x2F;wikipedia&amp;#x2F;commons&amp;#x2F;3&amp;#x2F;38&amp;#x2F;JPEG_example_JPG_RIP_010.jpg&quot;&#x2F;&gt;
+	&lt;&#x2F;a&gt;
+&lt;figcaption&gt;Sıkıştırılmış versiyonu gösterilen, alternatif yazısı olan bir resim; ve üzerine gelindiğinde yakınlaştırma yok&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;img class=&quot;spoiler&quot;alt=&quot;Portal Gun yapım şablonu&quot;src=&quot;https:&amp;#x2F;&amp;#x2F;files.catbox.moe&amp;#x2F;lk7nee.jpg&quot;&#x2F;&gt;
+&lt;figcaption&gt;Alternatif yazısı olan bir resim, ve üzerine gelindiğinde&#x2F;basıldığında resmin bulanıklığı kalkar&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Bundan öte, aşağıdaki URL bağlantılarını ekleyebilirsiniz. Bu bazı durumlarda daha kullanışlı olabilir, örneğin bu tür resimler Zola kısa kodlarına karşı herhangi bir Markdown editöründe normal şekilde görüntülenir, ve bazı kişiler bu yöntemi daha kolay bulabilir.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;#full&lt;&#x2F;code&gt;: Resmi tam genişlikte göstermeyi zorlar.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#start&lt;&#x2F;code&gt;: Resmi paragrafın başına yerleştirir ve boyutunu küçültür.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#end&lt;&#x2F;code&gt;: Resmi paragrafın sonuna yerleştirir ve boyutunu küçültür.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#pixels&lt;&#x2F;code&gt;: Ölçeklendirme için en yakın komşu algoritmasını kullanır, piksel sanatı keskin tutmak için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#transparent&lt;&#x2F;code&gt;: Yuvarlatılmış köşeleri ve gölgeyi kaldırır, şeffaflık içeren resimler için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#drop-shadow&lt;&#x2F;code&gt;: Kutu gölgesi yerine düşme gölgesi kullanır, şeffaflık içeren resimler için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#no-hover&lt;&#x2F;code&gt;: Üzerine gelindiğinde yakınlaştırmayı kaldırır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#spoiler&lt;&#x2F;code&gt;: Üzerine gelindiğinde&#x2F;basıldığında resmi bulanıklaştırır, zengin hikaye içeren oyun ekran görüntüleri için yararlıdır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;#spoiler&lt;&#x2F;code&gt;ın yanında &lt;code&gt;#solid&lt;&#x2F;code&gt;: Bulanıklığı kaldırıp resmi tamamen gizler.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br &#x2F;&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;containertoolbx.org&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;containertoolbx.org&#x2F;assets&#x2F;toolbx.gif#full#pixels#transparent#drop-shadow#no-hover&quot; alt=&quot;Toolbx kapak resmi&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Alternatif yazısı olan tam genişlikte bir resim, piksel sanatı işleme, düşme gölgesi ve yuvarlatılmış köşeler ile üzerine gelindiğinde yakınlaştırma yok&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;br &#x2F;&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;thumb&#x2F;1&#x2F;1b&#x2F;1966_Ford_Mustang_coupe_white_003.jpg&#x2F;320px-1966_Ford_Mustang_coupe_white_003.jpg#start&quot; alt=&quot;1966 Ford Mustang coupe beyazı&quot; &#x2F;&gt;
+Resmin bu yazının yanında yerleştirilmesini inceleyin, &lt;code&gt;#start&lt;&#x2F;code&gt; ile bunu eşde edebilirsiniz. Eğer mobilde veya tarayıcınız yeteri kadar dar ise resim üstte kalacaktır.&lt;br &#x2F;&gt;
+&lt;em&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Videolarda birkaç farklılık dışında her şey olduğu gibi geçerlidir: &lt;code&gt;no_hover&lt;&#x2F;code&gt; ve &lt;code&gt;url_min&lt;&#x2F;code&gt; değişkenleri mevcut değildir (Videoların üzerine gelince yakınlaşması aşırı sinir bozucu olurdu. Zaten tam yüklenene kadar sıkıştırılmış halde gelir, aksi halde yüklenmeleri çok uzun sürerdi).&lt;&#x2F;p&gt;
+&lt;p&gt;Ek olarak aşağıdaki videolara özel &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTML&#x2F;Element&#x2F;video#attributes&quot;&gt;nitelikler&lt;&#x2F;a&gt; ayarlanabilir:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;autoplay&lt;&#x2F;code&gt;: Videoyu otomatik olarak oynatmaya başlar.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;controls&lt;&#x2F;code&gt;: Ses seviyesi kontrolü, ileri geri sarma ve duraklatma&#x2F;devam ettirme gibi video kontrollerini gösterir.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;loop&lt;&#x2F;code&gt;: Video sona erdikten sonra tekrar oynatır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;muted&lt;&#x2F;code&gt;: Varsayılan olarak sesi kapatır.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;playsinline&lt;&#x2F;code&gt;: Videonun varsayılan olarak tam ekran oynamasını engeller (tarayıcıya bağlıdır).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-jinja2&quot;&gt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-jinja2&quot;&gt;*&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;video&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;url&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;video.webm&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;alt&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;Merhaba,benim adım &lt;span class=&quot;z-constant z-character z-escape z-double-quote z-jinja2&quot;&gt;\&amp;quot;&lt;&#x2F;span&gt;videocan&lt;span class=&quot;z-constant z-character z-escape z-double-quote z-jinja2&quot;&gt;\&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-language z-jinja2&quot;&gt;true&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-arithmetic z-jinja2&quot;&gt;*&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-jinja2&quot;&gt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;figure&gt;
+&lt;video class=&quot;&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;upload.wikimedia.org&amp;#x2F;wikipedia&amp;#x2F;commons&amp;#x2F;transcoded&amp;#x2F;0&amp;#x2F;0e&amp;#x2F;Duckling_preening_%2881313%29.webm&amp;#x2F;Duckling_preening_%2881313%29.webm.720p.vp9.webm&quot;aria-title=&quot;Duckling preening&quot;controls&gt;&lt;&#x2F;video&gt;
+
+&lt;figcaption&gt;Yavru ördek tüylerini düzeltiyor&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;crt&quot;&gt;CRT&lt;&#x2F;h3&gt;
+&lt;p&gt;Alright, this one doesn’t simplify anything, it just adds a CRT-like effect around Markdown code blocks.
+Hiç bir şeyi basitleştirmemesine bakmayın, kod bloklarının etrafına CRT benzeri bir efekt eklemesi bile yeteri kadar havalı!&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-tag&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;{%&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-control z-jinja2&quot;&gt;crt&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;%}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;-&amp;gt; İçerik &amp;lt;-
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-tag&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;{%&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-control z-jinja2&quot;&gt;end&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-tag&quot;&gt;%}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;div class=&quot;crt scanlines&quot; aria-hidden=&quot;true&quot;&gt;
+	&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt; _____________________________________________
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;&amp;#39;,        Public_Library_Halls         ,&amp;#39;&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;&amp;#39;,                                 ,&amp;#39;&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;&amp;#39;,                             ,&amp;#39;&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;&amp;#39;,                         ,&amp;#39;&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|                         |.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|===;                 ;===|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|:::|&amp;#39;,             ,&amp;#39;|:::|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|---|&amp;#39;.|, _______ ,|.&amp;#39;|---|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|:::|&amp;#39;.|&amp;#39;|???????|&amp;#39;|.&amp;#39;|:::|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|,&amp;#39;,&amp;#39;,&amp;#39;,&amp;#39;,|---|&amp;#39;,|&amp;#39;|???????|&amp;#39;|,&amp;#39;|---|,&amp;#39;,&amp;#39;,&amp;#39;,&amp;#39;,|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|:::|&amp;#39;.|&amp;#39;|???????|&amp;#39;|.&amp;#39;|:::|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|---|&amp;#39;,&amp;#39;   &#x2F;%%%\   &amp;#39;,&amp;#39;|---|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|===:&amp;#39;    &#x2F;%%%%%\    &amp;#39;:===|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|%%%%%%%%%%%%%%%%%%%%%%%%%|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;,&amp;#39;       &#x2F;%%%%%%%%%\       &amp;#39;,&amp;#39;.&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;.&amp;#39;,&amp;#39;        &#x2F;%%%%%%%%%%%\        &amp;#39;,&amp;#39;.&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;.&amp;#39;,&amp;#39;         &#x2F;%%%%%%%%%%%%%\         &amp;#39;,&amp;#39;.&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|.&amp;#39;,&amp;#39;          &#x2F;%%%%%%%%%%%%%%%\          &amp;#39;,&amp;#39;.|
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;|;____________&#x2F;%%%%%Spicer%%%%%%\____________;|
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;emoji&quot;&gt;Emoji&lt;&#x2F;h3&gt;
+&lt;p&gt;Emojiler şu anda kullanılamıyor (kısa kodları sıkıntı çıkarıyor). &lt;code&gt;extra.debug.emoji&lt;&#x2F;code&gt; ile &lt;code&gt;extra.debug.lemoji&lt;&#x2F;code&gt;yi şimdilik kapalı tutun.&lt;&#x2F;p&gt;
+&lt;!-- Use any custom emoji from Mastodon. Uses the instance set in the `[extra.fediverse]` section of page&#x2F;section front-matter or `config.toml`, otherwise falls back to [mastodon.social](https:&#x2F;&#x2F;mastodon.social). --&gt;
+&lt;!--  --&gt;
+&lt;!-- Available variables are: --&gt;
+&lt;!--  --&gt;
+&lt;!-- - `name`: Name of the emoji. --&gt;
+&lt;!-- - `path`: Path or filename of the local, [colocated](https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;overview&#x2F;#asset-colocation) emoji. --&gt;
+&lt;!-- - `big`: Makes the emoji bigger. --&gt;
+&lt;!--  --&gt;
+&lt;!-- ```jinja2 --&gt;
+&lt;!-- {{ emoji(name=&quot;neofox_googly_shocked&quot;) }} --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- Hello there, I&#x27;m an `{{ emoji(name=&quot;neofox_googly_shocked&quot;) }}` inline custom emoji. --&gt;
+&lt;!--  --&gt;
+&lt;!-- ```jinja2 --&gt;
+&lt;!-- {{ emoji(name=&quot;neofox_floof_explode&quot;, big=true) }} --&gt;
+&lt;!-- ``` --&gt;
+&lt;!--  --&gt;
+&lt;!-- `{{ emoji(name=&quot;neofox_floof_explode&quot;, big=true) }}` --&gt;
+&lt;h3 id=&quot;ses-butonu&quot;&gt;Ses butonu&lt;&#x2F;h3&gt;
+&lt;p&gt;Komik bir üzerine gelme animasyonuna sahip işe yaramaz bir ses butonu yerleştirir. Çalışması için sayfa, bölüm veya yapılandırma düzeyinde &lt;code&gt;extra.audio_button&lt;&#x2F;code&gt; etkinleştirilmelidir.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;audio&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;name&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;Yuppi :D&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;url&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;party-horn.mp3&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Herkese merhaba! Ne yapmayı severim biliyor musunuz? Doğru bildiniz, &lt;button class=&quot;audio&quot; data-audio=&quot;party-horn.mp3&quot;&gt;Parti&lt;i class=&quot;icon speaker-high&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20viewBox%3D%220%200%20256%20256%22%20fill%3D%22currentColor%22%3E%3Cpath%20d%3D%22M157.27%2C21.22a12%2C12%2C0%2C0%2C0-12.64%2C1.31L75.88%2C76H32A20%2C20%2C0%2C0%2C0%2C12%2C96v64a20%2C20%2C0%2C0%2C0%2C20%2C20H75.88l68.75%2C53.47A12%2C12%2C0%2C0%2C0%2C164%2C224V32A12%2C12%2C0%2C0%2C0%2C157.27%2C21.22ZM36%2C100H68v56H36Zm104%2C99.46L92%2C162.13V93.87l48-37.33ZM212%2C128a44%2C44%2C0%2C0%2C1-11%2C29.11%2C12%2C12%2C0%2C1%2C1-18-15.88%2C20%2C20%2C0%2C0%2C0%2C0-26.43%2C12%2C12%2C0%2C0%2C1%2C18-15.86A43.94%2C43.94%2C0%2C0%2C1%2C212%2C128Zm40%2C0a83.87%2C83.87%2C0%2C0%2C1-21.39%2C56%2C12%2C12%2C0%2C0%2C1-17.89-16%2C60%2C60%2C0%2C0%2C0%2C0-80%2C12%2C12%2C0%2C1%2C1%2C17.88-16A83.87%2C83.87%2C0%2C0%2C1%2C252%2C128Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;button&gt;
+ düzenlemeyi! (Aslında sevmem, sadece ses butonunu göstermek istedim. Zaten ayarlayacak kadar para yok bende.)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;youtube&quot;&gt;YouTube&lt;&#x2F;h3&gt;
+&lt;p&gt;youtube-nocookie ile Youtube videosunu gömmeyi sağlar.&lt;&#x2F;p&gt;
+&lt;p&gt;Kullanılabilir değişkenler:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;autoplay&lt;&#x2F;code&gt;: Videonun otomatik olarak oynatılıp oynatılmayacağı.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;start&lt;&#x2F;code&gt;: Videonun hangi saniyeden başlaması gerektiği.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;youtube&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;id&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;0Da8ZhKcNKQ&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;0Da8ZhKcNKQ&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;vimeo&quot;&gt;Vimeo&lt;&#x2F;h3&gt;
+&lt;p&gt;youtube-nocookie ile Vimeo videosunu gömmeyi sağlar.&lt;&#x2F;p&gt;
+&lt;p&gt;Kullanılabilir değişkenler:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;autoplay&lt;&#x2F;code&gt;: Videonun otomatik olarak oynatılıp oynatılmayacağı.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;vimeo&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;id&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;906050015&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;iframe
+    class=&quot;vimeo-embed&quot;
+    src=&quot;https:&#x2F;&#x2F;player.vimeo.com&#x2F;video&#x2F;906050015&quot;
+    allow=&quot;autoplay; fullscreen; picture-in-picture&quot;
+    allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;sitwatch&quot;&gt;SitWatch&lt;&#x2F;h3&gt;
+&lt;p&gt;Bir SitWatch videosunu gömmeyi sağlar.&lt;&#x2F;p&gt;
+&lt;p&gt;Kullanılabilir değişkenler:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;id&lt;&#x2F;code&gt;: Videonun ID’si (veya yeteri kadar eski olanlar için alternatif olarak video index numarası).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;sitwatch&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;id&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;zIAxJy9usBk&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;sitwatch.net&#x2F;api&#x2F;videos&#x2F;zIAxJy9usBk&#x2F;embed&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;mastodon&quot;&gt;Mastodon&lt;&#x2F;h3&gt;
+&lt;p&gt;Bir Mastodon gönderisini gömmeyi sağlar.&lt;&#x2F;p&gt;
+&lt;p&gt;Kullanılabilir değişkenler:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;host&lt;&#x2F;code&gt;: Gönderinin bulunduğu instance. Ayarlanmazsa, sayfa&#x2F;bölüm ön yüzü veya &lt;code&gt;config.toml&lt;&#x2F;code&gt; dosyasındaki &lt;code&gt;[extra.fediverse]&lt;&#x2F;code&gt; bölümünde ayarlanan değere geri dönecektir.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;user&lt;&#x2F;code&gt;: Gönderen. Ayarlanmazsa, sayfa&#x2F;bölüm ön yüzü veya &lt;code&gt;config.toml&lt;&#x2F;code&gt; dosyasındaki &lt;code&gt;[extra.fediverse]&lt;&#x2F;code&gt; bölümünde ayarlanan değere geri dönecektir.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;id&lt;&#x2F;code&gt;: Gönderinin ID’si, gönderi URL’sinin sonunda bulunur.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;jinja2&quot; class=&quot;language-jinja2 z-code&quot;&gt;&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span class=&quot;z-source z-jinja2&quot;&gt;&lt;span class=&quot;z-meta z-scope z-jinja2 z-variable&quot;&gt;&lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;{{&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;mastodon&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;host&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;vmst.io&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;user&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;daudix&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-variable z-other z-jinja2&quot;&gt;id&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-jinja2&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-jinja2&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;113375516179365586&lt;span class=&quot;z-punctuation z-definition z-string z-end z-jinja2&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-other z-jinja2&quot;&gt;)&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-other z-jinja2 z-delimiter z-variable&quot;&gt;}}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;iframe
+	class=&quot;mastodon-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;vmst.io&#x2F;@daudix&#x2F;113375516179365586&#x2F;embed&quot;&gt;
+&lt;&#x2F;iframe&gt;
+&lt;h2 id=&quot;html-bilesenleri&quot;&gt;HTML Bileşenleri&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;tanim-listesi&quot;&gt;Tanım Listesi&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;dl&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;dt&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Birşey&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;dt&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;dd&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Ve açıklaması&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;dd&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;dl&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;dl&gt;
+&lt;dt&gt;İsim&lt;&#x2F;dt&gt;
+&lt;dd&gt;Godzilla&lt;&#x2F;dd&gt;
+&lt;dt&gt;Doğum&lt;&#x2F;dt&gt;
+&lt;dd&gt;1952&lt;&#x2F;dd&gt;
+&lt;dt&gt;Doğum Yeri&lt;&#x2F;dt&gt;
+&lt;dd&gt;Japonya&lt;&#x2F;dd&gt;
+&lt;dt&gt;Renk&lt;&#x2F;dt&gt;
+&lt;dd&gt;Yeşil&lt;&#x2F;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;h3 id=&quot;form-bilesenleri&quot;&gt;Form Bileşenleri&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;input&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;type&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;checkbox&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&#x2F;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;İşaret kutusu&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Süt&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yumurta&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Un&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;checkbox&quot; checked &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Kahve&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;checkbox&quot; disabled &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yanıcı limonlar (nasıl yanıyorsunuz yaw)&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;switch&lt;&#x2F;code&gt; sınıfı ile:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;input&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;switch&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;type&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;checkbox&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&#x2F;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;İşaret kutusu&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch&quot; type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Süt&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch&quot; type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yumurta&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch&quot; type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Un&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch&quot; type=&quot;checkbox&quot; checked &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Kahve&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch&quot; type=&quot;checkbox&quot; disabled &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yanıcı limonlar (bomba seçeneği)&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;With &lt;code&gt;switch&lt;&#x2F;code&gt; ve &lt;code&gt;big&lt;&#x2F;code&gt; sınıfları ile:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;input&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;switch&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;big&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;type&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;checkbox&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&#x2F;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;İşaret kutusu&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch big&quot; type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Süt&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch big&quot; type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yumurta&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch big&quot; type=&quot;checkbox&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Un&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch big&quot; type=&quot;checkbox&quot; checked &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Kahve&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input class=&quot;switch big&quot; type=&quot;checkbox&quot; disabled &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yanıcı limonlar &lt;small&gt;(AAAAAAA)&lt;&#x2F;small&gt;&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;radio&lt;&#x2F;code&gt; sınıfı ile:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;input&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;type&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;radio&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;name&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;test&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&#x2F;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Radyo&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;test&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Süt&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;test&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yumurta&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;test&quot; &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Un&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;test&quot; checked &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Kahve&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;test&quot; disabled &#x2F;&gt;
+    &lt;label&gt;&amp;nbsp;Yanıcı limonlar (panelcilerin attığı büyük bomba, Hasan hocam iyi bilir nasıl göründüklerini &lt;small&gt;SDFGFDSADFGHGFD&lt;&#x2F;small&gt;)&lt;&#x2F;label&gt;
+  &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;color&lt;&#x2F;code&gt; sınıfı ile:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Renk:&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;label&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;input&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;type&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;color&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;value&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;#000000&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&#x2F;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;label for=&quot;color&quot;&gt;Renk:&lt;&#x2F;label&gt;
+&lt;input id=&quot;color&quot; type=&quot;color&quot; value=&quot;#b57edc&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;label for=&quot;color&quot;&gt;Kapalı:&lt;&#x2F;label&gt;
+&lt;input id=&quot;color&quot; type=&quot;color&quot; value=&quot;#b57edc&quot; disabled &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;range&lt;&#x2F;code&gt; sınıfı ile:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;input&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;type&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;range&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;max&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;100&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;value&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;33&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;input type=&quot;range&quot; max=&quot;100&quot; value=&quot;33&quot; id=&quot;range&quot;&gt;
+&lt;!-- For the demo purposes only --&gt;
+&lt;figcaption&gt;&lt;small id=&quot;range-value&quot;&gt;&lt;&#x2F;small&gt;&lt;&#x2F;figcaption&gt;
+&lt;!-- End --&gt;
+&lt;h2 id=&quot;figur-aciklamalari&quot;&gt;Figür açıklamaları&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;markdown&quot; class=&quot;language-markdown z-code&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;figure&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;  -&amp;gt; İçerik (figür) &amp;lt;-
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;  &lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;figcaption&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Yukarıdaki içeriğin(figürün) açıklaması&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;figcaption&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;figure&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.ibb.co&#x2F;MPDJRsT&#x2F;ImMAXM3.png&quot; alt=&quot;The Office&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+  &lt;figcaption&gt;Stanley&#x27;ın çalıştığı Ofis, sarı zemin ve bej duvarlara sahip.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;akordiyon&quot;&gt;Akordiyon&lt;&#x2F;h2&gt;
+&lt;p&gt;Github’daki &lt;code&gt;README.md&lt;&#x2F;code&gt; yazan arkadaşlara gelsin :D&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;markdown&quot; class=&quot;language-markdown z-code&quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;details&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;  &lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;summary&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Akordiyon başlığı&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;summary&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;  -&amp;gt; İçerik burada &amp;lt;-
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-markdown&quot;&gt;&lt;span class=&quot;z-meta z-disable-markdown&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;details&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;details&gt;
+  &lt;summary&gt;Akordiyonun içeriğini göster&lt;&#x2F;summary&gt;
+&lt;p&gt;Komik miydi? &lt;small&gt;Komik olmadığını biliyordum, korkunç bir kelime oyunuydu zaten.&lt;&#x2F;small&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;thumb&#x2F;1&#x2F;1b&#x2F;PianoAccordeon.jpg&#x2F;916px-PianoAccordeon.jpg#transparent#no-hover&quot; alt=&quot;Piyano Akordiyonu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h2 id=&quot;kucuk-yazi&quot;&gt;Küçük Yazı&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;small&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Yüksek sesle düşünme, dikkat çekmeyen küçük, sevimli bir metin.&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;small&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;small&gt;Yüksek sesle düşünme, dikkat çekmeyen küçük, sevimli bir metin.&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kisaltmalar&quot;&gt;Kısaltmalar&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;abbr&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;title&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;American Standard Code for Information Interchange (Amerikan Standart Bilgi Değişim Kodu)&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;ASCII&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;abbr&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The &lt;abbr title=&quot;American Standard Code for Information Interchange (Amerikan Standart Bilgi Değişim Kodu)&quot;&gt;ASCII&lt;&#x2F;abbr&gt; sanatını beğenirim.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;yan-yorum&quot;&gt;Yan Yorum&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;aside&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;-&amp;gt; İçerik burada &amp;lt;-
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;aside&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;aside&gt;
+&lt;p&gt;Tüy ve parşömen. Yazı yazmak için kullanılırlardı.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;thumb&#x2F;b&#x2F;b9&#x2F;%D7%A7%D7%9C%D7%A3%2C_%D7%A0%D7%95%D7%A6%D7%94_%D7%95%D7%93%D7%99%D7%95.jpg&#x2F;326px-%D7%A7%D7%9C%D7%A3%2C_%D7%A0%D7%95%D7%A6%D7%94_%D7%95%D7%93%D7%99%D7%95.jpg&quot; alt=&quot;Quill and a parchment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;aside&gt;
+&lt;p&gt;Bir kuş tüyü (tercihen büyük bir kuşun birincil kanat tüyü) kullanılarak yapılmış bir yazı aracıdır. Kuş tüyleri, dip kalem, metal uçlu kalem, dolma kalem ve nihayetinde tükenmez kalemin icadından önce mürekkeple yazmak için kullanılıyordu.&lt;br &#x2F;&gt;
+Önceki kamış kalem (ve daha sonra batırmalı kalem) ile olduğu gibi, bir kuş tüyünün dahili bir mürekkep haznesi yoktur ve bu nedenle yazma sırasında periyodik olarak bir mürekkep kuyusuna batırılması gerekir. El kesimi kaz tüyü artık kaligrafi aracı olarak nadiren kullanılır çünkü birçok kağıt artık odun hamurundan türetilmiştir ve bir kuş tüyünü hızla aşındırır. Ancak, bazı yazıcılar için hala tercih edilen araçtır; çünkü kuş tüyeleri, çelik kalemlerden daha keskin bir vuruş ve daha fazla esneklik sağlar.&lt;&#x2F;p&gt;
+&lt;p&gt;Bu bölme tıpkı &lt;code&gt;#start&lt;&#x2F;code&gt; veya &lt;code&gt;#end&lt;&#x2F;code&gt; ile kullanılan resimler gibi tarayıcınız yeteri kadar geniş değilse üstte&#x2F;altta bulunur.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;klavye-tusu&quot;&gt;Klavye Tuşu&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;kbd&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;⌘ Command&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;kbd&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Klavye düzenini değiştirmek için &lt;kbd&gt;⌘ Super&lt;&#x2F;kbd&gt; + &lt;kbd&gt;Space&lt;&#x2F;kbd&gt; tuşlarına basın. Onlara basmadan önce &lt;kbd&gt;bana&lt;&#x2F;kbd&gt; da basın :D&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;mark-text&quot;&gt;Mark Text&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;mark&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;İşaretlenmiş yazı&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;mark&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Bir şey diyeyim mi? Çok &lt;mark&gt;önemli&lt;&#x2F;mark&gt; bir şey söyleyeceğim, o kadar &lt;mark&gt;önemli&lt;&#x2F;mark&gt; ki kelimeleri &lt;strong&gt;kalın&lt;&#x2F;strong&gt;laştırmak bile yetmez söylediklerime.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;yazi-silme-ve-ekleme&quot;&gt;Yazı Silme ve Ekleme&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;del&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Silinmiş bir şey&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;del&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; ve &lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;ins&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Eklenmiş bir şey&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;ins&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;del&gt;Silinmiş bir şey&lt;&#x2F;del&gt; ve &lt;ins&gt;Eklenmiş bir şey&lt;&#x2F;ins&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ilerleme-cubugu&quot;&gt;İlerleme Çubuğu&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;progress&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;progress&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Boş bir ilerleme çubuğu &lt;small&gt;gerçi ilerleme de yok ama&lt;&#x2F;small&gt;.
+&lt;progress&gt;&lt;&#x2F;progress&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;progress&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;value&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;33&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;max&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;100&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;progress&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;progress value=&quot;33&quot; max=&quot;100&quot;&gt;&lt;&#x2F;progress&gt;
+Yüzde 33 dolu bir ilerleme çubuğu. Sanırım. Belki aslında ilerlemenin yüzde 67’si boştur ve onu göstermeye çalışıyordur, kim bilir?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ornek-cikti&quot;&gt;Örnek Çıktı&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;samp&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Örnek Çıktı&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;samp&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;samp&gt;Örnek Çıktı&lt;&#x2F;samp&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;inline-quotation&quot;&gt;Inline Quotation&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;q&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Birisi bir şey söyledi&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;q&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;boş yapma sesleri vs. vs.&lt;br &#x2F;&gt;
+&lt;q&gt;İç içe alıntı&lt;&#x2F;q&gt;&lt;br &#x2F;&gt;
+&lt;em&gt;hmm&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;unarticulated-annotation-alt-cizgi&quot;&gt;&lt;del&gt;Unarticulated Annotation&lt;&#x2F;del&gt; &lt;ins&gt;Alt çizgi&lt;&#x2F;ins&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;u&gt;Unarticulated Annotation&lt;&#x2F;u&gt;’ın Türkçe anlamı… neydi lan bunun Türkçesi?&lt;br &#x2F;&gt;
+Neyse, şimdilik “&lt;u&gt;Alt çizgi&lt;&#x2F;u&gt;” diyeyim.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;u&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Gramer hataları&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;u&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;u&gt;Vibing&lt;&#x2F;u&gt; yaparken &lt;u&gt;TikTok&lt;&#x2F;u&gt; &lt;u&gt;fam&lt;&#x2F;u&gt; ile cap-free boomerang üzerinde &lt;u&gt;sus&lt;&#x2F;u&gt; drip’i yeğleyin adamım. &lt;small&gt;(Bu cümlede gramer hataları ve kendini &lt;i&gt;&lt;abbr title=&quot;Havalılık, sanırım.&quot;&gt;hawli&lt;&#x2F;abbr&gt;&lt;&#x2F;i&gt; sanan bir malın sözleri olabilir.)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;baslik-gorunumlu-yazilar&quot;&gt;Başlık görünümlü yazılar&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;strong&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;title&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Başlık (kesinlikle riyal) 🤑&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong class=&quot;title&quot;&gt;Başlık (kesinlikle riyal) 🤑&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;disa-cikan-baglantilar&quot;&gt;Dışa Çıkan Bağlantılar&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;external&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;href&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;https:&#x2F;&#x2F;example.org&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Dışa Çıkan Bağlantı&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;Dışa Çıkan Bağlantı&lt;&#x2F;a&gt;
+&lt;small&gt;bu simgeyi fark ettin mi? Evet, tahmin ettiğin gibi sitenin dışına çıkan bir bağlantı bu. Sen nasıl bu kadar zeki oluyorsun be?&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;spoilerlar&quot;&gt;Spoilerlar&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;span&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;spoiler&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Gizlenmek istenen içerik&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;span&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;dl&gt;
+&lt;dt&gt;Siquyit geym 4 için spoilerlar: &lt;span class=&quot;spoiler&quot;&gt;bebek zaengin oldu ve şimdi bizden daha iyi bir hayatı var&lt;&#x2F;span&gt;&lt;&#x2F;dt&gt;
+&lt;dd&gt;O Biliyorum, çok çılgın bir şey değil mi bu?&lt;&#x2F;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;p&gt;With &lt;code&gt;solid&lt;&#x2F;code&gt; class:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;span&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;spoiler&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;solid&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Gizlenmek istenen içerik&lt;span class=&quot;z-meta z-tag z-inline z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-any z-html&quot;&gt;span&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;dl&gt;
+&lt;dt&gt;Siquyit geym 4 için spoilerlar: &lt;span class=&quot;spoiler solid&quot;&gt;bebek zaengin oldu ve şimdi bizden daha iyi bir hayatı var&lt;&#x2F;span&gt;&lt;&#x2F;dt&gt;
+&lt;dd&gt;O Biliyorum, çok çılgın bir şey değil mi bu?&lt;&#x2F;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;h2 id=&quot;butonlar&quot;&gt;Butonlar&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;div&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;buttons&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;  &lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;href&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;#top&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Başa Dön&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;  &lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;suggested&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;external&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;href&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;https:&#x2F;&#x2F;example.org&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;menemen&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;div&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;div class=&quot;buttons&quot;&gt;
+  &lt;a href=&quot;#top&quot;&gt;Başa Dön&lt;&#x2F;a&gt;
+  &lt;a class=&quot;suggested external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;menemen&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;code&gt;centered&lt;&#x2F;code&gt; ve &lt;code&gt;big&lt;&#x2F;code&gt; sınıfları ile:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;div&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;buttons&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;centered&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;big&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;  &lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;button&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;suggested&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Menemen satın al…&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;button&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-block z-any z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-block z-any z-html&quot;&gt;div&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;div class=&quot;buttons centered big&quot;&gt;
+  &lt;button class=&quot;suggested&quot;&gt;Menemen satın al…&lt;&#x2F;button&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Kendi başına:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;button&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;suggested&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Menemen satın al…&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;button&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;button&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;external&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;href&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;https:&#x2F;&#x2F;example.org&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;amogusgusgus&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;button class=&quot;suggested&quot;&gt;Menemen satın al…&lt;&#x2F;button&gt;
+&lt;a class=&quot;button external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;amogusgusgus&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Kapatılmış:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; class=&quot;language-html z-code&quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;button&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;disabled&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;suggested&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;Menemen satın al…&lt;span class=&quot;z-meta z-tag z-inline z-form z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-form z-html&quot;&gt;button&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-html z-basic&quot;&gt;&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;aria-disabled&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;true&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-class z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-class z-html&quot;&gt;class&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;button&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-class-name z-html&quot;&gt;external&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-attribute-with-value z-html&quot;&gt;&lt;span class=&quot;z-entity z-other z-attribute-name z-html&quot;&gt;href&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-html&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;https:&#x2F;&#x2F;example.org&lt;span class=&quot;z-punctuation z-definition z-string z-end z-html&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;amogusgusgus&lt;span class=&quot;z-meta z-tag z-inline z-a z-html&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-begin z-html&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name z-tag z-inline z-a z-html&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-tag z-end z-html&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;button disabled class=&quot;suggested&quot;&gt;Menemen satın al…&lt;&#x2F;button&gt;
+&lt;a aria-disabled=&quot;true&quot; class=&quot;button external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;amogusgusgus&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

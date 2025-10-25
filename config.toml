@@ -1,0 +1,312 @@
+base_url = "https://anins1der.com"
+# title = "basement" # also gets used as tab title.
+title = "blo(c)k"
+description = "personal blog of someone named anins1der's; about tech, programming, and other shit."
+
+theme = "ametrine"
+
+author = "anins1der"
+
+compile_sass = true
+build_search_index = true
+minify_html = true
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
+# Based on https://github.com/welpo/tabi
+
+# To translate the entire theme, there must be a file with the same ISO 639-1
+# or BCP 47 language code in the "i18n" directory of your site or the Ametrine
+# theme, for example, "i18n/fr.toml" for French or "i18n/zh-Hans.toml" for
+# Simplified Chinese, otherwise the theme will be in English.
+
+# ISO 639-1: https://localizely.com/iso-639-1-list/
+# BCP 47: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+default_language = "en"
+
+taxonomies = [
+    { name = "tags", feed = true, paginate_by = 10 },
+    { name = "categories", feed = true },
+]
+
+[languages.tr]
+title = "blo(c)k"
+description = "anins1der adlı birinin teknoloji, programlama ve diğer saçmalıklar hakkındaki blog'u."
+generate_feeds = true
+
+taxonomies = [
+	{ name = "tags", feed = true, paginate_by = 10 },
+	{ name = "categories", feed = true },
+]
+
+
+[markdown] # Pretty self-explanatory.
+
+render_emoji = true  # (Native emoji support. Turns text emojis into real emojis, e.g :smile:) => 🙂) 
+definition_list = true # (idek what this even does ._.)
+
+# Additional syntaxes and themes for syntax highlighting.
+extra_syntaxes_and_themes = ["themes/ametrine/sublime/"]
+highlight_theme = "css"
+highlight_themes_css = [
+	{ theme = "monokai-pro-dark", filename = "syntax-theme-dark.css" },
+	{ theme = "monokai-pro-light", filename = "syntax-theme-light.css" },
+]
+
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+smart_punctuation = true
+bottom_footnotes = true
+external_links_class = "external"
+github_alerts = true
+
+# Accepted values are "elasticlunr_javascript" and "elasticlunr_json"
+index_format = "elasticlunr_json"
+
+[extra] # Everything, and everything about Ametrine theme configuration.
+# Accent color used by Ametrine.
+# Has a few modes:
+# - Use one of the predefinded colors:
+#   accent_color = "<red, orange, yellow, green, blue, purple>"
+# - Use a single color for both light and dark modes:
+#   accent_color = "hsl(270 50% 60%)"
+# - Use separate colors for light and dark modes
+#   accent_color = ["hsl(270 50% 60%)", "hsl(27.567572 87% 67%)"]
+# Make sure they are in the HSL color format.
+accent_color = ["hsl(159, 43%, 63%)", "hsl(159, 48%, 40%)"]
+
+# Usage of an icon is heavily adviced. A question
+# mark icon will be used if none is provided.
+# Any icon name from https://phosphoricons.com can be used.
+# Color attribute accepts the same values as extra.accent_color, which can be
+# found above.
+categories = [
+    { name = "Archived", description = "Posts that have been archived due to their age.", color = "purple", icon = "box-arrow-down" },
+    { name = "Featured", description = "Posts that are somewhat decently written.", color = "yellow", icon = "star" },
+    { name = "Hot", description = "Posts that did numbers compared to others.", color = "red", icon = "fire" },
+    { name = "Test", description = "Categories can be set and customized entirely from config, woo-hoo!", color = "green", icon = "feather" },
+]
+
+# Additional CSS styles; expects them to be in the "./static/" directory.
+# If you are using Sass these will be generated there automatically.
+# styles = [
+#   "style.scss"
+# ]
+
+# Additional JavaScript scripts; expects them to be in the "./static/" directory.
+# scripts = [
+#   "YOUR_SCRIPT.js",
+#   "ALSO_YOUR_SCRIPT.js"
+# ]
+
+# Path to the page that is being considered "Home", e.g. for the "Go Home" button on 404.
+# Should be left default unless you have doing, uhh, experiements with your home page :slight_smile:
+# You can use @ to refer to the content directory directly.
+# (e.g. "@/blog/page.md" instead of "[project root]/content/blog/page.md")
+# home_url = "@/home/index.md"
+
+# URL to website's source code.
+# source_url = "https://git.anins1der.com/anins1der/blog"
+# ...and to it's bug tracker/issues page.
+# issues_url = "https://git.anins1der.com/anins1der/blog/issues/new"
+
+# Whether to show estimated read time in posts.
+show_reading_time = true
+
+# Ultimate skid³ prevention toggle. Set this value "false" to enable :)
+# Works by making skid³'s use more ATP's to select and hit
+# ctrl + c as opposed to just clicking on a button.
+copy_button = true
+
+# Whether to show an audio play button for audio files embedded using the audio shortcode
+audio_button = true
+
+# Custom separator used throughout the theme.
+separator = "***"
+# Custom separator used in website's title and article metadata.
+title_separator = "|"
+
+# Locale and timezone shit.
+date_format = "%d %B %Y"
+date_format_long = "%d %B %Y, %R (%Z)"
+date_locale = "tr_TR"
+timezone = "Europe/Istanbul"
+
+# Shows a QR code that directly jumps to your Mastodon instance, focused on comment writer.
+show_comments_qr = true
+
+
+# Whether to use Content Security Policy.
+# Keep in mind that although this can potentially increase security,
+# it can break some things, in which case you will need to set a custom policy.
+csp = [
+    { directive = "img-src", domains = [
+        "'self'",
+        "https:",
+        "data:",
+    ] },
+    { directive = "media-src", domains = [
+        "'self'",
+        "https:",
+    ] },
+    { directive = "script-src", domains = [
+        "cloud.umami.is",
+    ] },
+    { directive = "style-src", domains = [
+        "'self'",
+        "'unsafe-inline'",
+    ] },
+    { directive = "frame-src", domains = [
+        "https://player.vimeo.com",
+        "https://sitwatch.net",
+        "https://www.youtube-nocookie.com",
+        "https://vmst.io",
+    ] },
+    { directive = "connect-src", domains = [
+        "*.umami.dev",
+        "cloud.umami.is",
+    ] },
+    { directive = "base-uri", domains = [
+        "'none'",
+    ] },
+    { directive = "form-action", domains = [
+        "'none'",
+    ] },
+]
+
+[extra.tr]
+# Translations for the [extra]. Available variables are:
+# - categories
+# - date_format
+# - date_format_long
+# - date_locale
+categories = [
+	{ name = "Arşivlenmiş", description = "Yaşlanıp arşivlenen gönderiler", color = "purple", icon = "box-arrow-down" },
+	{ name = "Öne çıkarılanlar", description = "(En azından) güzel yazılmış gönderiler", color = "yellow", icon = "star" },
+	{ name = "Popüler", description = "Diğerlerine göre rağbet gören gönderiler", color = "red", icon = "fire" },
+	{ name = "Test", description = "cok guzel.yemeq :D", color = "green", icon = "bowl-steam" },
+]
+
+date_format = "%d %B %Y"
+date_format_long = "%d %B %Y, %R (%Z)"
+date_locale = "tr_TR"
+
+
+[extra.meta]
+# Variables bellow accept either "true" or a filename. Favicon can also accept an emoji too.
+# File extension are being respected, so e.g. if favicon has .gif extension,
+# it'll be treated as an animated one.
+# If set to "true" values will default to:
+# favicon           =  favicon.png
+# apple_touch_icon  =  apple-touch-icon.png
+# card              =  card.png
+favicon = "favicon.webp"
+apple_touch_icon = "apple-touch-icon.webp"
+card = true
+
+[extra.nav]
+# When set to true and [extra.fediverse] is defined, it will use avatar from
+# said Mastodon account, otherwise it'll fallback to apple_touch_icon specified
+# in [extra.meta] or its default value.
+# Also accepts arbitrary filenames and URLs for custom images.
+icon = "apple-touch-icon.webp"
+# Usage of an icon is heavily adviced. In case if none is provided, first two
+# letters of the link name will be used instead.
+# Any icon name from https://phosphoricons.com can be used.
+links = [
+    { url = "@/blog/_index.md", name = "blog xd", icon = "newspaper" },
+#     { name = "sussus mogus wahoo", category = [
+#         { url = "https://www.aperturescience.com", name = "lie", icon = "cake", new = true },
+#     ] },
+]
+
+[extra.nav.tr]
+# Translations for the [extra.nav]. Available variables are:
+# - links
+links = [
+    { url = "@/blog/_index.md", name = "blog", icon = "newspaper" },
+]
+
+[extra.footer]
+# Set to false to disable copyright text, or set to anything else to use it as
+# the copyright text (Markdown supported).
+# $YEAR will be replaced with current year.
+copyright = "© **anins1der**, $YEAR"
+
+# Whether to show "Powered by Zola and Ametrine"
+show_powered_by = true
+
+# Whether to show Fediring (https://fediring.net). Only works if
+# [extra.fediverse] is filled out and you're part of the webring.
+# show_fediring = false
+# Whether to show timestamp of the last build. Uses UTC timezone unless your own
+# is set under extra.timezone
+show_timestamp = true
+
+# Social links in the footer.
+# Any icon name from https://simpleicons.org can be used.
+socials = [
+    { url = "https://tr.wikipedia.org/wiki/Oksijen", icon = "O2" },
+]
+
+[extra.footer.tr]
+# Translations for the [extra.footer]. Available variables are:
+# - copyright
+copyright = "© **anins1der**, 2025 - $YEAR"
+
+[extra.fediverse]
+# Fediverse integration.
+# Used for:
+# - Commenting
+# - Custom emoji shortcode
+# - Website verification
+# - Author attribution
+#
+# Mastodon-powered commenting is based on
+# https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/
+# Don't forget to check extra.show_comments_qr for comment QR code.
+#
+# Values can be overridden in the front-matter, e.g.
+# for multi-author blogs or guest posts.
+
+# host = "indieweb.social"
+# user = "anins1der"
+
+[extra.analytics]
+# Specify which analytics service you want to use.
+# Supported options: "goatcounter", "umami", and "plausible".
+# service = "umami"
+
+# Unique identifier for tracking.
+# For GoatCounter, this is the code you choose during signup.
+# For Umami, this is the website ID.
+# For Plausible, this is the domain name (e.g. "example.com").
+# Note: Leave this field empty if you're self-hosting GoatCounter.
+# id = "58cb5e4b-c650-4d19-b804-65b716e64fb4"
+
+# Optional: Specify the URL for self-hosted analytics instances.
+# For GoatCounter: Base URL like "https://stats.example.com"
+# For Umami: Base URL like "https://umami.example.com"
+# For Plausible: Base URL like "https://plausible.example.com"
+# Leave this field empty if you're using the service's default hosting.
+# self_hosted_url = "https://umami.anins1der.com"
+
+# Optional: For Umami, enable this option to respect users' Do Not Track (DNT)
+# settings.
+# do_not_track = false
+
+[extra.debug]
+# Display outlines around all elements for debugging purposes.
+# layout = true
+
+# Don't load any styles for debugging purposes.
+# no_styles = true
+
+# Skip loading of Mastodon emojis used via the emoji.html shortcode.
+no_emojis = true
+
+# Skip loading of local emojis used via the lemoji.html shortcode.
+no_lemojis = true
