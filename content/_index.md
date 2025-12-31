@@ -6,8 +6,6 @@ no_header = true
 +++
 
 # blo(c)k 
-<!-- ## <mark><marquee scrollamount="13">geliştirme aşamasında</marquee></mark> -->
-
 ***
 yep, this was the coolest name i got from my friends when i asked about this blog's name <small>uhhuh, best name i got was literally just *block* ._.</small>.
 
@@ -16,7 +14,7 @@ i am a turkish entity who has turkish "friends", so considering that and the tur
 
 hey dont look at me like that-
 
-## what are you even developing, you just have your theme ready <u>bruh</u>-
+## what are you even developing, you just have your theme ready *bruh*-
 lots of things. for example:  
 - custom functionality (shortcodes) and styling for them
 - better (and *k*ooler) home page
@@ -30,6 +28,6 @@ jokes aside,
     <li>relaxing out (by creating pain)</li>
     <li>create a free and comfortable place that i could share my thoughts</li>
     <li>gain experience (what is this, minecraft?)</li>
-    <li>uhh (f<span class="spoiler">uck</span> you, <i>that one teacher</i> i hate 😀)</li>
+    <li>give that <span class="spoiler">fucking</span> teacher a big fat middle finger, <i>that one teacher</i> i hate 😀</li>
   </ul>
 </details>

@@ -1,4 +1,4 @@
-base_url = "https://anins1der.com"
+base_url = "/"
 # title = "basement" # also gets used as tab title.
 title = "blo(c)k"
 description = "personal blog of someone named anins1der's; about tech, programming, and other shit."
@@ -39,7 +39,6 @@ taxonomies = [
 	{ name = "categories", feed = true },
 ]
 
-
 [markdown] # Pretty self-explanatory.
 
 render_emoji = true  # (Native emoji support. Turns text emojis into real emojis, e.g :smile:) => 🙂) 
@@ -62,6 +61,7 @@ smart_punctuation = true
 bottom_footnotes = true
 external_links_class = "external"
 github_alerts = true
+insert_anchor_links = "left"
 
 # Accepted values are "elasticlunr_javascript" and "elasticlunr_json"
 index_format = "elasticlunr_json"
@@ -93,7 +93,7 @@ categories = [
 # Additional CSS styles; expects them to be in the "./static/" directory.
 # If you are using Sass these will be generated there automatically.
 # styles = [
-#   "style.scss"
+#    "style.scss"
 # ]
 
 # Additional JavaScript scripts; expects them to be in the "./static/" directory.
@@ -308,5 +308,5 @@ copyright = "© **anins1der**, 2025 - $YEAR"
 # Skip loading of Mastodon emojis used via the emoji.html shortcode.
 no_emojis = true
 
-# Skip loading of local emojis used via the lemoji.html shortcode.
-no_lemojis = true
+# Skip loading "stickies": custom emoji shortcode i modified from original template, works using local content
+# no_stickers = true

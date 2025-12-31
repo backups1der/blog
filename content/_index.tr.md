@@ -5,16 +5,7 @@ insert_anchor_links = "left"
 no_header = true
 +++
 
-<img id="logo" class="transparent drop-shadow" src="logo.svg" alt="lan buneğ.">
-
-<div class="buttons centered big">
-  <a class="suggested" href="/demo/">stres testi (site deneme sayfası) →</a>
-  <button class="external">kaynak kodu (skidler için)</button>
-</div>
-
 # blo(c)k 
-<!-- ## <mark><marquee scrollamount="13">geliştirme aşamasında</marquee></mark> -->
-
 ***
 evet, bu aptal blog için arkadaşlarımdan isim istedim ve en iyi ve havalı isim buydu <small>evet evet, en iyi isim basbayağı *blok* idi</small>.
 

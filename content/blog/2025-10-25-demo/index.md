@@ -7,6 +7,8 @@ updated = 2025-02-03
 categories = ["Test"]
 tags = ["Test"]
 [extra]
+styles = ["demo/demo.css"]
+scripts = ["demo/demo.js"]
 banner = "banner.jpg"
 accent_color = ["hsl(108 5% 18%)", "hsl(84 2% 55%)"]
 archive = "This page is in fact not archived. It is only here to demonstrate the archival statement."

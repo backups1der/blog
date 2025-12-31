@@ -84,10 +84,17 @@
 	},
  	"Emoji" : {
 		"scope": "markdown",
-		"prefix": ["emoji","lemoji"],
-		"body": ["{{ lemoji( ${1|name,path|}=\"$2\", big=${3|true,false|}) }}",
+		"prefix": ["emoji"],
+		"body": ["{{ emoji(path=\"${1}\", name=\"${2}\", big=${3|true,false|}) }}",
+		"$0"],
+		"description": "Insert an emoji"
+	},
+
+	"Sticker" : {
+		"scope": "markdown",
+		"prefix": ["sticker"],
+		"body": ["{{ sticker(path=\"${1}\", name=\"${2}\", big=${3|true,false|}) }}",
 		"$0"],
 		"description": "Insert an emoji"
 	}
-
 }

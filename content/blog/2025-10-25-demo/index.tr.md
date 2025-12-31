@@ -7,6 +7,8 @@ updated = 2025-02-03
 categories = ["Test"]
 tags = ["Test"]
 [extra]
+styles = ["demo/demo.css"]
+scripts = ["demo/demo.js"]
 banner = "banner.jpg"
 accent_color = ["hsl(108 5% 18%)", "hsl(84 2% 55%)"]
 archive = "Bu sayfa aslında arşivlenmedi. Burada sadece arşivlenen sayfaların nasıl göründüğünü göstermek için var."
@@ -37,7 +39,7 @@ Yazılar **kalın**, *italik*, ~~üstü çizili~~ olabilir, ve ***~~hemen hemen 
 Paragraflar arasında boşluk olmalıdır.
 
 <strong class="title">Dipnotlar</strong><br>
-Dipnot örneği[^1].
+Dipnot örneği [^1].
 
 <strong class="title">Başlıklar</strong>
 # Başlık 1
@@ -91,19 +93,19 @@ Bu başlıktan sonra gelen bir paragraf[^2].
 Uzun, tek satırlık kod satırları cümle sonlarına doğru parçalanmamalı. Yeter kadar uzun olan satırlar sağa doğru uzar. Bu satır bunu gösterebilecek kadar uzun olmalı.
 ```
 
-```rust
-let highlight = true;
-// Çok satırlı kod bloklarında dil belirtilirse sözdizimi vurgulaması destekler.
+```python
+highlight = true
+# Çok satırlı kod bloklarında dil belirtilirse sözdizimi vurgulaması destekler.
 ```
 Kod satırlarında satır numaraları, belirli satırların vurgulanması, ve bazı satırların gizlenmesi de desteklenir.
 ```scss, linenos, linenostart=10, hl_lines=3-4 8-9, hide_lines=2 7
 pre mark {
-  // If you want your highlights to take the full width
+  // If you want your highlights to take the full width (hehe gizlendim)
   display: block;
   color: currentcolor;
 }
 pre table td:nth-of-type(1) {
-  // Select a colour matching your theme
+  // Select a colour matching your theme (haha ben de)
   color: #6b6b6b;
   font-style: italic;
 }
@@ -260,7 +262,8 @@ Bundan öte, aşağıdaki URL bağlantılarını ekleyebilirsiniz. Bu bazı duru
 
 ![1966 Ford Mustang coupe beyazı](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/1966_Ford_Mustang_coupe_white_003.jpg/320px-1966_Ford_Mustang_coupe_white_003.jpg#start)
 Resmin bu yazının yanında yerleştirilmesini inceleyin, `#start` ile bunu eşde edebilirsiniz. Eğer mobilde veya tarayıcınız yeteri kadar dar ise resim üstte kalacaktır.  
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur.*
+<small>*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur.*</small>  
+
 
 Videolarda birkaç farklılık dışında her şey olduğu gibi geçerlidir: `no_hover` ve `url_min` değişkenleri mevcut değildir (Videoların üzerine gelince yakınlaşması aşırı sinir bozucu olurdu. Zaten tam yüklenene kadar sıkıştırılmış halde gelir, aksi halde yüklenmeleri çok uzun sürerdi).
 
@@ -283,7 +286,6 @@ Ek olarak aşağıdaki videolara özel [nitelikler](https://developer.mozilla.or
 
 ### CRT
 
-Alright, this one doesn't simplify anything, it just adds a CRT-like effect around Markdown code blocks.
 Hiç bir şeyi basitleştirmemesine bakmayın, kod bloklarının etrafına CRT benzeri bir efekt eklemesi bile yeteri kadar havalı!
 
 ```jinja2
@@ -319,29 +321,15 @@ Hiç bir şeyi basitleştirmemesine bakmayın, kod bloklarının etrafına CRT b
 
 {% end %}
 
-### Emoji
-Emojiler şu anda kullanılamıyor (kısa kodları sıkıntı çıkarıyor). `extra.debug.emoji` ile `extra.debug.lemoji`yi şimdilik kapalı tutun.
-<!-- Use any custom emoji from Mastodon. Uses the instance set in the `[extra.fediverse]` section of page/section front-matter or `config.toml`, otherwise falls back to [mastodon.social](https://mastodon.social). -->
-<!--  -->
-<!-- Available variables are: -->
-<!--  -->
-<!-- - `name`: Name of the emoji. -->
-<!-- - `path`: Path or filename of the local, [colocated](https://www.getzola.org/documentation/content/overview/#asset-colocation) emoji. -->
-<!-- - `big`: Makes the emoji bigger. -->
-<!--  -->
-<!-- ```jinja2 -->
-<!-- {{/* emoji(name="neofox_googly_shocked") */}} -->
-<!-- ``` -->
-<!-- Hello there, I'm an `{{/* emoji(name="neofox_googly_shocked") */}}` inline custom emoji. -->
-<!--  -->
-<!-- ```jinja2 -->
-<!-- {{/* emoji(name="neofox_floof_explode", big=true) */}} -->
-<!-- ``` -->
-<!--  -->
-<!-- `{{/* emoji(name="neofox_floof_explode", big=true) */}}` -->
+### Emojiler yok, stickerlar var :D
+Bu tema ile gelen emoji kısakodu braz sıkıntılı olduğu için ben `extra.debug.no_emojis`i açtım. Bunun yerine aynı taslağın değiştirilmiş halini kullanan `stickers`'i yazdım. Emoji kısakodunun düzeltilip yerel dosyalarda vs çalışan hali yani.
+Kullanılabilir değişkenler:
+
+- `name`: Üstüne gelindiğinde çıkan etiket ismi
+- `path`: Dosya konumu
+- `big`: Stickerın daha büyük halini açıp kapatır
 
 ### Ses butonu
-
 Komik bir üzerine gelme animasyonuna sahip işe yaramaz bir ses butonu yerleştirir. Çalışması için sayfa, bölüm veya yapılandırma düzeyinde `extra.audio_button` etkinleştirilmelidir.
 
 ```jinja2
@@ -381,10 +369,6 @@ Kullanılabilir değişkenler:
 
 ### SitWatch
 Bir SitWatch videosunu gömmeyi sağlar.
-
-Kullanılabilir değişkenler:
-
-- `id`: Videonun ID'si (veya yeteri kadar eski olanlar için alternatif olarak video index numarası).
 
 ```jinja2
 {{/* sitwatch(id="zIAxJy9usBk") */}}
@@ -487,7 +471,7 @@ Kullanılabilir değişkenler:
   </li>
 </ul>
 
-With `switch` ve `big` sınıfları ile:
+`switch` ve `big` sınıfları ile:
 
 ```html
 <input class="switch big" type="checkbox" />
@@ -613,7 +597,7 @@ Github'daki `README.md` yazan arkadaşlara gelsin :D
 <abbr title="American Standard Code for Information Interchange (Amerikan Standart Bilgi Değişim Kodu)">ASCII</abbr>
 ```
 
-The <abbr title="American Standard Code for Information Interchange (Amerikan Standart Bilgi Değişim Kodu)">ASCII</abbr> sanatını beğenirim.
+<abbr title="American Standard Code for Information Interchange (Amerikan Standart Bilgi Değişim Kodu)">ASCII</abbr> sanatını beğenirim.
 
 ## Yan Yorum
 ```html
@@ -712,7 +696,7 @@ Neyse, şimdilik "<u>Alt çizgi</u>" diyeyim.
 <span class="spoiler">Gizlenmek istenen içerik</span>
 ```
 Siquyit geym 4 için spoilerlar: <span class="spoiler">bebek zaengin oldu ve şimdi bizden daha iyi bir hayatı var</span>  
-:O Biliyorum, çok çılgın bir şey değil mi bu?
+\:O Biliyorum, çok çılgın bir şey değil mi bu?
 
 With `solid` class:
 
@@ -720,7 +704,7 @@ With `solid` class:
 <span class="spoiler solid">Gizlenmek istenen içerik</span>
 ```
 Siquyit geym 4 için spoilerlar: <span class="spoiler solid">bebek zaengin oldu ve şimdi bizden daha iyi bir hayatı var</span>
-:O Biliyorum, çok çılgın bir şey değil mi bu?
+\:O Biliyorum, çok çılgın bir şey değil mi bu?
 
 ## Butonlar
 ```html
@@ -766,3 +750,5 @@ Kapatılmış:
 
 <button disabled class="suggested">Menemen satın al…</button>
 <a aria-disabled="true" class="button external" href="https://example.org">amogusgusgus</a>
+
+[^1]: Dipnotlar üzerinde ***Markdown*** kullanılabilir.
