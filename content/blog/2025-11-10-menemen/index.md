@@ -39,7 +39,7 @@ sparrows taste good imo.
 - its ready :D
 
 ## TheParappa (<abbr title="also known as">aka</abbr> <span class="spoiler solid">CreLa</span>, beanie tier)
-we love parappa xd  
+we love parappa xd 
 
 <!-- {{ image(alt="parappaaa", url="https://cdn.discordapp.com/avatars/1411088035696738468/9be36814cda5a20c669caf115801a250.png") }} -->
 

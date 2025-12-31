@@ -1,0 +1,41 @@
+// extra styling, thanks to mambuco for helping me figuring this out (note: *he*
+// didnt really help me out, i figured everything out by looking at his repository)
+// still, big thanks to mambuco.dev :red_heart:
+
+// these guys restores old features from older ametrine versions
+// (citation needed, im too shy to contact daudix about this lel)
+@use 'deprecated/container-fill'
+
+// mods, some written by me and weird (in a terrible way)
+@use 'mods/roundBanners'
+
+
+// extra shit you can import *every fucking where*
+@use '../themes/ametrine/sass/abstracts/functions' as *
+
+// we all <3 snug nook :3
+.snug
+  -webkit-background-clip: text
+  background-clip: text
+  color: transparent
+  background-image: linear-gradient(90deg, var(--orange-fg))
+  filter: drop-shadow(rpx(1) rpx(1) rgb(0 0 0 / 0.6))
+
+// rainbow class, stolen from theme creator, animated by me
+.rainbow
+  -webkit-background-clip: text
+  background-clip: text
+  -webkit-text-fill-color: transparent
+  color: transparent
+  filter: drop-shadow(rpx(1) rpx(1) rgb(0 0 0 / 0.6))
+  /* repeat the color sequence so the gradient wraps smoothly */
+  background-image: linear-gradient(90deg, var(--red-fg), var(--orange-fg), var(--yellow-fg), var(--green-fg), var(--blue-fg), var(--purple-fg), var(--red-fg), var(--orange-fg), var(--yellow-fg), var(--green-fg), var(--blue-fg), var(--purple-fg))
+  background-size: 200% 100%
+  background-position: 0% 50%
+  animation: rainbow-move 1.8s linear infinite
+
+@keyframes rainbow-move
+  0%
+    background-position: 0% 50%
+  100%
+    background-position: 100% 50%

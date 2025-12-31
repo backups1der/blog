@@ -1,0 +1,49 @@
+{# temporary ai-generated macro. will write it myself soon  #}
+
+{% macro get_discord_data(discord_id) %}
+    {% if discord_id %}
+        {% set url = "https://api.lanyard.rest/v1/users/" ~ discord_id %}
+        {% set response = url | fetch_json %}
+        
+        {% if response %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Discord ID</td>
+                        <td>{{ response.data.id }}</td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>{{ response.data.username }}</td>
+                    </tr>
+                    <tr>
+                        <td>Discriminator</td>
+                        <td>{{ response.data.discriminator }}</td>
+                    </tr>
+                    <tr>
+                        <td>Is Online</td>
+                        <td>{{ response.data.discord_status }}</td>
+                    </tr>
+                    {% if response.data.socials %}
+                        {% for social, value in response.data.socials %}
+                            <tr>
+                                <td>{{ social | capitalize }}</td>
+                                <td>{{ value }}</td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>Error: Unable to retrieve Discord data.</p>
+        {% endif %}
+    {% else %}
+        <p>No Discord ID provided.</p>
+    {% endif %}
+{% endmacro %}

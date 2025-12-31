@@ -4,16 +4,18 @@
 	{%- endif -%}
 
 	{%- if path -%}
-		{%- set sticker_src = get_url(path=page.path ~ path) -%}
-		{# {%- set sticker_title = path | split(pat='.', limit=2) | first -%} #}
-		{# {%- set sticker_title = sticker_src | split(pat='.', limit=2) | first -%} #}
+		{%- set sticker_src = path -%}
 		{%- set sticker_title = name -%}
-
+			{%- if classes -%}
+				{%- set sticker_classes = classes -%}
+			{%- else -%}
+				{%- set sticker_classes = "" -%}
+			{%- endif -%}
 	{%- endif -%}
 
 
 	<img
-		class="emoji{% if big %} big{% endif %}"
+		class="emoji{% if big %} big{% endif %} {{ sticker_classes }}"
 		src="{{ sticker_src | safe }}"
 		title="{{ sticker_title }}"
 		width="24"

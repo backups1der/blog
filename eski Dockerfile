@@ -1,0 +1,18 @@
+# From https://awsmfoss.com/zola/
+FROM alpine:latest AS build
+
+# Yup, Alpine support Zola :)
+# https://pkgs.alpinelinux.org/package/edge/community/x86_64/zola
+RUN apk add zola --no-cache
+
+# Copy in your code
+COPY . /build
+WORKDIR /build
+
+# Run the site afresh inside the container
+RUN zola build
+
+# We're using caddy :D
+FROM caddy:latest
+
+COPY --from=build /build/public /usr/share/caddy

@@ -1,5 +1,4 @@
 base_url = "/"
-# title = "basement" # also gets used as tab title.
 title = "blo(c)k"
 description = "personal blog of someone named anins1der's; about tech, programming, and other shit."
 
@@ -66,6 +65,9 @@ insert_anchor_links = "left"
 # Accepted values are "elasticlunr_javascript" and "elasticlunr_json"
 index_format = "elasticlunr_json"
 
+[link_checker]
+internal_level = "warn"
+
 [extra] # Everything, and everything about Ametrine theme configuration.
 # Accent color used by Ametrine.
 # Has a few modes:
@@ -76,7 +78,7 @@ index_format = "elasticlunr_json"
 # - Use separate colors for light and dark modes
 #   accent_color = ["hsl(270 50% 60%)", "hsl(27.567572 87% 67%)"]
 # Make sure they are in the HSL color format.
-accent_color = ["hsl(159, 43%, 63%)", "hsl(159, 48%, 40%)"]
+accent_color = ["hsl(159, 43%, 43%)", "hsl(159, 48%, 40%)"]
 
 # Usage of an icon is heavily adviced. A question
 # mark icon will be used if none is provided.
@@ -90,20 +92,21 @@ categories = [
     { name = "Test", description = "Categories can be set and customized entirely from config, woo-hoo!", color = "green", icon = "feather" },
 ]
 
-# Additional CSS styles; expects them to be in the "./static/" directory.
-# If you are using Sass these will be generated there automatically.
-# styles = [
-#    "style.scss"
-# ]
+# "Additional CSS styles; expects them to be in the "./static/" directory."
+# "If you are using Sass these will be generated there automatically."
+
+ # ... or does it?
+# mambuco's config (mambuco.dev) sources sass from /sass folder,
+# so by doing that way, it compiles all of them into "styles.css"
+# and puts it next to /public/index.html, thus actually doing shit.
+# LETSGOOOOOOOO-
+styles = ["index.css"]
 
 # Additional JavaScript scripts; expects them to be in the "./static/" directory.
-# scripts = [
-#   "YOUR_SCRIPT.js",
-#   "ALSO_YOUR_SCRIPT.js"
-# ]
+# scripts = ["a.js", "b.js"]
 
 # Path to the page that is being considered "Home", e.g. for the "Go Home" button on 404.
-# Should be left default unless you have doing, uhh, experiements with your home page :slight_smile:
+# Should be left default unless you have doing, uhh, experiements with your home page :)
 # You can use @ to refer to the content directory directly.
 # (e.g. "@/blog/page.md" instead of "[project root]/content/blog/page.md")
 # home_url = "@/home/index.md"
@@ -166,6 +169,8 @@ csp = [
         "https://vmst.io",
     ] },
     { directive = "connect-src", domains = [
+        "api.lanyard.rest",
+        "discord.com",
         "*.umami.dev",
         "cloud.umami.is",
     ] },
@@ -204,23 +209,26 @@ date_locale = "tr_TR"
 # apple_touch_icon  =  apple-touch-icon.png
 # card              =  card.png
 favicon = "favicon.webp"
-apple_touch_icon = "apple-touch-icon.webp"
-card = true
+apple_touch_icon = "favicon.webp"
+card = "card.png"
 
 [extra.nav]
 # When set to true and [extra.fediverse] is defined, it will use avatar from
 # said Mastodon account, otherwise it'll fallback to apple_touch_icon specified
 # in [extra.meta] or its default value.
 # Also accepts arbitrary filenames and URLs for custom images.
-icon = "apple-touch-icon.webp"
+# icon = "apple-touch-icon.webp"
+icon = "favicon.webp"
 # Usage of an icon is heavily adviced. In case if none is provided, first two
 # letters of the link name will be used instead.
 # Any icon name from https://phosphoricons.com can be used.
 links = [
-    { url = "@/blog/_index.md", name = "blog xd", icon = "newspaper" },
-#     { name = "sussus mogus wahoo", category = [
-#         { url = "https://www.aperturescience.com", name = "lie", icon = "cake", new = true },
-#     ] },
+    { url = "@/blog/_index.md", name = "blog", icon = "newspaper" },
+    { url = "@/about/_index.md", name = "about me", icon = "user" },
+    
+    # { name = "external", category = [
+    #     { url = "https://snugnook.org", name = "snug nook", icon = "chat", new = true },
+    # ] },
 ]
 
 [extra.nav.tr]
@@ -228,6 +236,7 @@ links = [
 # - links
 links = [
     { url = "@/blog/_index.md", name = "blog", icon = "newspaper" },
+    { url = "@/about/_index.md", name = "hakkımda", icon = "user" },
 ]
 
 [extra.footer]
@@ -248,14 +257,15 @@ show_timestamp = true
 
 # Social links in the footer.
 # Any icon name from https://simpleicons.org can be used.
+
 socials = [
-    { url = "https://tr.wikipedia.org/wiki/Oksijen", icon = "O2" },
+    # { url = "https://snugnook.org", icon = "cat" },
 ]
 
 [extra.footer.tr]
-# Translations for the [extra.footer]. Available variables are:
-# - copyright
-copyright = "© **anins1der**, 2025 - $YEAR"
+# Translations for the [extra.footer]. Available variables are: copyright
+
+copyright = "© **kornaman**, 2025 - $YEAR<br>hiçbir hakkı saklı değildir."
 
 [extra.fediverse]
 # Fediverse integration.
