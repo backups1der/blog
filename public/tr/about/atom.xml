@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
     <title>blo(c)k - bu aptal hakkında</title>
     <subtitle>anins1der adlı birinin teknoloji, programlama ve diğer saçmalıklar hakkındaki blog&#x27;u.</subtitle>
-    <link rel="self" type="application/atom+xml" href="anins1der.com/tr/about/atom.xml"/>
-    <link rel="alternate" type="text/html" href="anins1der.com/tr/about/"/>
+    <link rel="self" type="application/atom+xml" href="https://anins1der.com/tr/about/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://anins1der.com/tr/about/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     
-    <id>anins1der.com/tr/about/atom.xml</id>
+    <id>https://anins1der.com/tr/about/atom.xml</id>
 </feed>

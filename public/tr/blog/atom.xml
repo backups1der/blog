@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
     <title>blo(c)k - Blog</title>
     <subtitle>anins1der adlı birinin teknoloji, programlama ve diğer saçmalıklar hakkındaki blog&#x27;u.</subtitle>
-    <link rel="self" type="application/atom+xml" href="anins1der.com/tr/blog/atom.xml"/>
-    <link rel="alternate" type="text/html" href="anins1der.com/tr/blog/"/>
+    <link rel="self" type="application/atom+xml" href="https://anins1der.com/tr/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://anins1der.com/tr/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-12-14T00:00:00+00:00</updated>
-    <id>anins1der.com/tr/blog/atom.xml</id>
+    <id>https://anins1der.com/tr/blog/atom.xml</id>
     <entry xml:lang="tr">
         <title>linux</title>
         <published>2025-12-14T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="anins1der.com/tr/blog/linux/"/>
-        <id>anins1der.com/tr/blog/linux/</id>
+        <link rel="alternate" type="text/html" href="https://anins1der.com/tr/blog/linux/"/>
+        <id>https://anins1der.com/tr/blog/linux/</id>
         
-        <content type="html" xml:base="anins1der.com/tr/blog/linux/">&lt;p&gt;&lt;small&gt;işte tekrardan geldi herkesin favori linuxcu piçi .d&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://anins1der.com/tr/blog/linux/">&lt;p&gt;&lt;small&gt;işte tekrardan geldi herkesin favori linuxcu piçi .d&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -48,10 +48,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="anins1der.com/tr/blog/menemen/"/>
-        <id>anins1der.com/tr/blog/menemen/</id>
+        <link rel="alternate" type="text/html" href="https://anins1der.com/tr/blog/menemen/"/>
+        <id>https://anins1der.com/tr/blog/menemen/</id>
         
-        <content type="html" xml:base="anins1der.com/tr/blog/menemen/">&lt;h2 id=&quot;siparouv-siparious-youtuberius-netherite-tier&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#siparouv-siparious-youtuberius-netherite-tier&quot; aria-label=&quot;Anchor link for: siparouv-siparious-youtuberius-netherite-tier&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20viewBox%3D%220%200%20256%20256%22%20fill%3D%22currentColor%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+        <content type="html" xml:base="https://anins1der.com/tr/blog/menemen/">&lt;h2 id=&quot;siparouv-siparious-youtuberius-netherite-tier&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#siparouv-siparious-youtuberius-netherite-tier&quot; aria-label=&quot;Anchor link for: siparouv-siparious-youtuberius-netherite-tier&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20viewBox%3D%220%200%20256%20256%22%20fill%3D%22currentColor%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
 sıparouv (siparious youtuberius, netherite tier)&lt;&#x2F;h2&gt;
 &lt;p&gt;sıparouvlar çok lezzetlidir.&lt;&#x2F;p&gt;
 &lt;aside&gt;

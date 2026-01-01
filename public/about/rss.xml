@@ -2,11 +2,11 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
       <title>blo(c)k - about this idiot</title>
-      <link>anins1der.com/about/</link>
+      <link>https://anins1der.com/about/</link>
       <description>personal blog of someone named anins1der&#x27;s; about tech, programming, and other shit.</description>
       <generator>Zola</generator>
       <language>en</language>
-      <atom:link href="anins1der.com/about/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://anins1der.com/about/rss.xml" rel="self" type="application/rss+xml"/>
       
     </channel>
 </rss>
