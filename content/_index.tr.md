@@ -1,5 +1,6 @@
 +++
 title = "baba sayfa 🙃"
+description = "cehennemin kapısı"
 insert_anchor_links = "left"
 [extra]
 no_header = true
@@ -12,7 +13,7 @@ no_header = true
   <!-- <figcaption>replace this image lel</figcaption>   -->
   <div id="title">
 
-  # merhaba, ben kornaman <span class="rainbow">( {{ sticker(path="/parappa.png", name="my profile photo", big=true, classes="pfp") }} )</span>
+  # merhaba, ben kornaman <span class="rainbow">( {{ sticker(path="/parappa.png", name="ben, kesinlikle", big=true, classes="pfp") }} )</span>
 
   </div>
 
@@ -51,8 +52,6 @@ daha bir sürü şeyi. mesela:
   </ul>  
 </details>
 
----
-
 <details>
   <summary> boş beleş şeyler 4k uhd izle indir</summary>
 
@@ -70,5 +69,5 @@ daha bir sürü şeyi. mesela:
   -> bana bu bloğun ismini öneren arkadaşa da teşekkürle- <small>(böyle birisi yok bu arada,sınıftaki kişilerin de çaktığı gibi *çoklu kişilik bozukluğu*nun sonuçlarını görüyorsunuz FDSFGHJKHGFDGHJK)</small>
 
   <span class="spoiler">-> [parappa the rapper](https://en.wikipedia.org/wiki/PaRappa_the_Rapper)a da gerçek olup tatlı kaldığı için teşekkürler. (ve uh başlıktaki resim parappa'nın bir *fanartı*ydı haha)  
-  <small>yemin ederim ki bu yapay zekalar *bu kadar* hızlı öğrenebiliyor, bu son teşekkür onun önerisiydi DSFDGHJHGFDSGHJKGFD :sob:<small></span>
+  <small>yemin ederim ki bu yapay zekalar *bu kadar* hızlı öğrenebiliyor, bu son teşekkür onun önerisiydi DSFDGHJHGFDSGHJKGFD :sob:</small></span>
 </details>

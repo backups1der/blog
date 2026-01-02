@@ -1,0 +1,19 @@
+@use '../../themes/ametrine/sass/abstracts/functions' as *
+
+// rainbow class, stolen from daudix creator, animated by me
+.rainbow
+  -webkit-background-clip: text
+  background-clip: text
+  -webkit-text-fill-color: transparent
+  color: transparent
+  filter: drop-shadow(rpx(1) rpx(1) rgb(0 0 0 / 0.6))
+  background-image: repeating-linear-gradient(90deg, var(--red-fg), var(--orange-fg), var(--yellow-fg), var(--green-fg), var(--blue-fg), var(--purple-fg), var(--red-fg), var(--orange-fg), var(--yellow-fg), var(--green-fg), var(--blue-fg), var(--purple-fg), var(--red-fg))
+  background-size: 200% 100%
+  background-position: 0% 50%
+  animation: rainbow-move 1.8s linear infinite
+
+@keyframes rainbow-move
+  0%
+    background-position: 0% 50%
+  100%
+    background-position: 100% 50%

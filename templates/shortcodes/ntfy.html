@@ -1,19 +1,7 @@
-+++
-title = "bu aptal hakkında"
-description = "bu mal nasıl aptal bir götkafa olmayı durduramıyor?"
-generate_feeds = true
-[extra]
-no_header = true
-+++
-
-## merhaba, benim adım <span class="rainbow">kornaman</span>
-ben 16 yaşında bir aptalım; 7/24 "kod yazıyor", çiziyor ve yazı yazıyorum (yersen) {{ sticker(path="/emoji/trolley.png", name="trolley") }}
-
 <div class="ntfy-er">
   <div class="msgbar">
-    <input class="ntfy-msg" id="ntfy-msg" placeholder="tırtırt">
-    <button class="submit" onclick="javascript:sendNotification()">gönder gelsin</button>
-    
+    <input class="ntfy-msg" id="ntfy-msg" placeholder="">
+    <button class="submit" onclick="javascript:sendNotification()">send ts</button>
   </div>
 </div>
 
@@ -36,3 +24,22 @@ ben 16 yaşında bir aptalım; 7/24 "kod yazıyor", çiziyor ve yazı yazıyorum
     ntfyInput.value = ""
   }
 </script>
+
+<style>
+  .ntfy-er {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .msgbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .submit {
+    margin-left: .25rem;
+    flex: 0 0 auto;
+  }
+</style>

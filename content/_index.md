@@ -1,5 +1,6 @@
 +++
 title = "hoem paeg"
+description = "entrance to hell of mine (muehehehe)"
 insert_anchor_links = "left"
 [extra]
 no_header = true
@@ -7,6 +8,7 @@ no_header = true
 
 <div class="container-fill">
   <div>
+
   <!-- {{ image(url="/assets/parappa.png", alt="Just my avatar", end=true, no_hover=true) }} -->
   <!-- <figcaption>replace this image lel</figcaption>   -->
   <div id="title">
