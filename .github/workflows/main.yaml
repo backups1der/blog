@@ -3,7 +3,7 @@ name: Build Zola project and deploy to "public" branch
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: write
