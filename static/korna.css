@@ -1,0 +1,43 @@
+*{
+  background-color: #282828;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+
+  transition: all 0.2s ease-in-out;
+  }
+
+.spoiler{
+  cursor: help;
+  filter: blur(.25rem);
+
+  &:hover {
+    filter: blur(0);
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  color: #fabd2f;
+  /* text-shadow: #282828 2px 2px 2px solid */
+  -webkit-text-stroke: #282828;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #fabd2f;
+  }
+}
+
+hr{
+  &::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #fabd2f;
+  }
+
+  &::after{
+    content: '';
+  }
+}
