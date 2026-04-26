@@ -13,19 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout main branch
         uses: actions/checkout@v4
 
-      - name: Install Zola
-        run: sudo apt install zola
+      - name: Build with Zola, then push to "public" branch
+        uses: shalzz/zola-deploy-action@v0.22.1
+        env:
+          PAGES_BRANCH: public
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build site
-        run: zola build
-
-      - name: Push to "public" branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: public
-          force_orphan: true
+      - name: Ananas the duck
+        run: echo "Ananas duck"
