@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Zola
-        run: apt install zola
+        run: sudo apt install zola
 
       - name: Build site
         run: zola build
