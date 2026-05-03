@@ -202,7 +202,7 @@ links = [
 # Set to false to disable copyright text, or set to anything else to use it as
 # the copyright text (Markdown supported).
 # $YEAR will be replaced with current year.
-copyright = "<span class=center>© **anins1der**, $YEAR.</span>\nI am designed to not give a fuck about stuff that I don't really care, so I don't give a fuck about my rights being \"rEsErVeD\" or some shit like that.\nIf you want an license then just check [The Unlicense Page](/licence) <span class=spoiler>that is SECRETT!! OOOOO--</span>"
+copyright = "<span class=center>© **anins1der**, $YEAR.</span>"
 
 # Whether to show "Powered by Zola and Ametrine", and a link to the source code
 show_powered_by = true
@@ -213,9 +213,8 @@ show_source = true
 show_timestamp = true
 # Social links in the footer.
 # Any icon name from https://simpleicons.org can be used.
-socials = [
-  { url = "https://snugnook.org", icon = "cat" },
-]
+# socials = [{ url = "https://snugnook.org", icon = "pipecat" },]
+
 # List of webrings. Allowed fields:
 # - name     (required)
 # - url      (required)
@@ -226,6 +225,8 @@ socials = [
 webrings = [
   { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/$HOST/previous", next = "https://snugnook.org/ring/$HOST/next", random = "https://snugnook.org/ring/random" },
 ]
+
+note = "<small>I am designed to not give a fuck about stuff that I don't really care, so I don't give a fuck about my rights being \"rEsErVeD\" or some shit like that. If you want an license then just check [The Unlicense Page](/licence) <span class=spoiler>that is SECRETT!! OOOOO--</span></small>"
 
 # [extra.fediverse]
 # Fediverse integration.
