@@ -10,7 +10,7 @@ no_header = true
   <div>
   <div id="title">
 
-# Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/parappa.png", name="my profile photo", big=true) }} )</span>
+# Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} )</span>
 
 </div>
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects.

@@ -3,8 +3,8 @@
 {% block content %}
 {% block picture %}
 <picture id="not-found">
-	<source srcset="{{ get_url(path='404-static.webp') }}" media="(prefers-reduced-motion: reduce)">
-	<img class="pixels transparent no-hover" alt="Dog getting pet" {%- if config.markdown.lazy_async_image -%}decoding="async" loading="lazy"{%- endif -%} src="{{ get_url(path='404.gif') }}">
+	<source srcset="{{ get_url(path='/emoji/dowg.png') }}" media="(prefers-reduced-motion: reduce)">
+	<img class="pixels transparent no-hover" alt="Dog getting pet" {%- if config.markdown.lazy_async_image -%}decoding="async" loading="lazy"{%- endif -%} src="{{ get_url(path='dowg-pet.gif') }}">
 </picture>
 {% endblock picture %}
 
@@ -18,7 +18,7 @@
 	config.extra.issues_url %} If you feel that this behavior is unintended, please file an issue using the button
 	below.{% endif %}</p>
 
-	<div class="buttons centered">
+	<div class="buttons centered big">
 		<button class="suggested" onclick=history.back()>Go Back</button>
 		<a class="" href="{% include 'partials/home_url.html' %}">Go Home</a>
 		{%- if config.extra.issues_url %}
