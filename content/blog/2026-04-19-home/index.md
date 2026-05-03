@@ -1,7 +1,7 @@
 +++
 title = "Back to Home: Ametrine vs Static File Deployment"
 description = "You thought I could survive in this wild world of static webpage deployment and shit? You're <del>(and me to a extent)</del> are all wrong."
-author = ["eşşex", "kornman"]
+authors = ["anins1der"]
 
 [taxonomies]
 tags = ["blog"]

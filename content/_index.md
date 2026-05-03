@@ -10,7 +10,7 @@ no_header = true
   <div>
   <div id="title">
 
-# Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/parappa.png", name="my profile photo", big=true) }} )</span>.
+# Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/parappa.png", name="my profile photo", big=true) }} )</span>
 
 </div>
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects.
@@ -26,7 +26,7 @@ theme.
   </div>
 </div>
 
-<!-- <img id="character" width="500" class="transparent no-hover" src="home/thing.gif" alt='Parappa doing "Hey" animation from a FNF mod'> -->
+<img id="character" width="500" class="transparent no-hover" src="home/thing.gif" alt='Parappa doing "Hey" animation from a FNF mod'>
 <!-- I'm <abbr title="hmmmm"> -->
 <!-- <button id="funni">shy</button> -->
 <!-- </abbr> -->
