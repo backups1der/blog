@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>blo(c)k - blog</title>
+    <subtitle>A place where you can read a crazed 17 yo&#x27;s unfiltered thoughts and torture yourself while at it.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://anins1der.com/tags/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://anins1der.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-19T00:00:00+00:00</updated>
+    <id>https://anins1der.com/tags/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Back to Home: Ametrine vs Static File Deployment</title>
+        <published>2026-04-19T00:00:00+00:00</published>
+        <updated>2026-04-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            anins1der
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://anins1der.com/blog/home/"/>
+        <id>https://anins1der.com/blog/home/</id>
+        
+        <content type="html" xml:base="https://anins1der.com/blog/home/">&lt;p&gt;Over the past few months, I have been pushing myself to do &lt;em&gt;something original&lt;&#x2F;em&gt; for my website; and I have failed miserably.
+Like, nginx was pain in the ass, I couldn’t get simple-web-server to work the way I wanted: and the issue was — &lt;em&gt;drum roll&lt;&#x2F;em&gt; — I couldn’t get my website to display &lt;em&gt;nicer links&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nicer-links&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#nicer-links&quot; aria-label=&quot;Anchor link for: nicer-links&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Nicer links&lt;&#x2F;h2&gt;
+&lt;p&gt;What do I mean by “&lt;em&gt;nicer link&lt;&#x2F;em&gt;“s, exactly? You probably seen this before: When you take a look at your URL bar, most sites hide the extension of your page so it looks nicer.&lt;&#x2F;p&gt;
+&lt;aside&gt;
+&lt;img class=&quot;&quot;alt=&quot;Notice how the URL bar doesn&amp;#x27;t have an file extensions&quot;src=&quot;link.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Notice how the URL bar doesn&#x27;t have an file extensions&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;aside&gt;
+&lt;p&gt;…I messed up so bad that I couldn’t do it — like, you &lt;strong&gt;had to&lt;&#x2F;strong&gt; put .html at the end just to see the contents; and doing that doesn’t trigger page transitions :(&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;small&gt;Yep, that’s why I gave up on writing bare HTML and CSS—&lt;&#x2F;small&gt; &lt;img
+		class=&quot;emoji &quot;
+		src=&quot;&#x2F;emoji&#x2F;neofax_floof_explode.webp&quot;
+		title=&quot;oopsies, ig&quot;
+		width=&quot;24&quot;
+		height=&quot;24&quot;
+	&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zola&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#zola&quot; aria-label=&quot;Anchor link for: zola&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+New error, “new” setup&lt;&#x2F;h2&gt;
+&lt;p&gt;If you’ve been following my website lately, chances are you might have &lt;em&gt;seen&lt;&#x2F;em&gt; this layout appear before (along with random nginx brainfarts). As the footer &lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; below here says, this website runs on Zola (a simple, but templatable static site generator written in Rust); and on top of that Ametrine lies there.
+Ametrine is &lt;small&gt;(&lt;strong&gt;not&lt;&#x2F;strong&gt;)&lt;&#x2F;small&gt; a complete theme with a medium-sized feature set, designed to work with Zola and it’s limitations.&lt;&#x2F;p&gt;
+&lt;p&gt;I’m not exactly the guy that understands things or anything, it’s just that I take readily avaiable stuff from people, modify them a litte bit, “cry” about them not being original and go forward — oh look, I dont know how these got broken, &lt;em&gt;at all&lt;&#x2F;em&gt;!&lt;&#x2F;p&gt;
+&lt;!-- other values (transparent,no_hover,pixels,drop_shadow) can be set with *value*=true --&gt;
+&lt;img class=&quot;full&quot;alt=&quot;...how?&quot;src=&quot;bradar.png&quot;&#x2F;&gt;&lt;figcaption&gt;...how?&lt;&#x2F;figcaption&gt;
+&lt;!-- other values (transparent,no_hover,pixels,drop_shadow) can be set with *value*=true --&gt;
+&lt;img class=&quot;&quot;alt=&quot;Huhh??&quot;src=&quot;ayee.png&quot;&#x2F;&gt;&lt;figcaption&gt;Huhh??&lt;&#x2F;figcaption&gt;
+&lt;p&gt;…you probably get the idea. I guess it’s time to redo the entirety of the blog from ground up, maybe I’ll clean up every &lt;span class=&quot;snug&quot;&gt;nook&lt;&#x2F;span&gt; and cranny of this thingamabob while I’m at it &lt;small&gt;(lol)&lt;&#x2F;small&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;markdown-alert-important&quot;&gt;
+&lt;p&gt;T’is painful.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-caution&quot;&gt;
+&lt;p&gt;I took a long time to get stuff back up, not including the time I didn’t do anthing related to this blog (&lt;span class=&quot;spoiler&quot;&gt;of course I did &lt;em&gt;p r o c r a s t i n a t e&lt;&#x2F;em&gt;&lt;&#x2F;span&gt;)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Hi from a few days later. I finally got my shit back up and running. Everything’s fine. I mean, you can read this in a nice looking theme, so it’s a big pass to me.&lt;br &#x2F;&gt;
+It’s time for me to get this boy deployed on my Dokploy stack :)&lt;&#x2F;p&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;Well hello there, thanks for taking the quick ride to the footer! &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;section&gt;
+</content>
+        
+    </entry>
+</feed>

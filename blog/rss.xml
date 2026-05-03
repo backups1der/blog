@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>blo(c)k - Blog</title>
+      <link>https://anins1der.com/blog/</link>
+      <description>A place where you can read a crazed 17 yo&#x27;s unfiltered thoughts and torture yourself while at it.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://anins1der.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Restrictions.</title>
+          <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+          <author>anins1der</author>
+          <link>https://anins1der.com/blog/restrictions/</link>
+          <guid>https://anins1der.com/blog/restrictions/</guid>
+          <description xml:base="https://anins1der.com/blog/restrictions/">&lt;h1 id=&quot;prologue&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#prologue&quot; aria-label=&quot;Anchor link for: prologue&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Prologue&lt;&#x2F;h1&gt;
+&lt;p&gt;Once upon a time, where everyone lived freely –excepting the &lt;em&gt;glaring&lt;&#x2F;em&gt; issues–, a
+man came to &lt;em&gt;rescue&lt;&#x2F;em&gt; everyone.&lt;br &#x2F;&gt;
+That guy’s name was &lt;em&gt;Recep Tayyip Erdoğan&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Now you might ask, “There were”
+He became the president 4 times in a row –illegally– now&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; (’till today), and
+after some stuff happened&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-2&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;; the country was left at a fucked up state that
+&lt;u class=&quot;flat&quot;&gt;was&lt;&#x2F;u&gt; &lt;em&gt;surprisingly&lt;&#x2F;em&gt; bearable.&lt;&#x2F;p&gt;
+&lt;p&gt;I say &lt;em&gt;&lt;mark&gt;was&lt;&#x2F;mark&gt; bearable&lt;&#x2F;em&gt; because the change is near.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;age-restrictions&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#age-restrictions&quot; aria-label=&quot;Anchor link for: age-restrictions&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Age restrictions&lt;&#x2F;h1&gt;
+&lt;p&gt;Parents love it, we hate it; &lt;em&gt;everyone&lt;&#x2F;em&gt; knows what this dingus is.
+The reason we hate it is because it always brings bad stuff to out
+side of this table we call &lt;em&gt;freedom&lt;&#x2F;em&gt;. This didn’t change for our
+topic, or should i say, probably made it worse.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;reasoning-behind-it&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#reasoning-behind-it&quot; aria-label=&quot;Anchor link for: reasoning-behind-it&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Reasoning behind it&lt;&#x2F;h2&gt;
+&lt;p&gt;Children are –well– children, and everyone says that children must get older to start
+thinking properly; that ranges from their &lt;strong&gt;4-6. years&lt;&#x2F;strong&gt; &lt;small&gt;(start talking, get better
+at thinking)&lt;&#x2F;small&gt; to around their &lt;strong&gt;20&lt;&#x2F;strong&gt;’s &lt;small&gt;(finish getting better at thinking,
+start to gain experience)&lt;&#x2F;small&gt;.&lt;br &#x2F;&gt;
+So what if we enforce that so no child can get out of this period of theirs? The answer
+would be “Do it if you can, don’t do it if not.”.&lt;&#x2F;p&gt;
+&lt;p&gt;Unfortunately, sometimes humans just stop thinking reasonably and do random bullshit.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;does-this-work&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#does-this-work&quot; aria-label=&quot;Anchor link for: does-this-work&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Does this, work?&lt;&#x2F;h2&gt;
+&lt;p&gt;No. Like, &lt;strong&gt;not at all&lt;&#x2F;strong&gt;. 99% of the examples I saw were &lt;em&gt;beyond&lt;&#x2F;em&gt; terrible.
+This thing, paired with excuse of “child safety”, starts to ruin people’s online identities.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, when &lt;abbr title=&quot;United Kingdom, also known as Britain or England&quot;&gt;UK&lt;&#x2F;abbr&gt;
+started to roll out the so-called &lt;em&gt;&lt;a class=&quot;external&quot; rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Kids_Online_Safety_Act&quot;&gt;Kids Online Safety Act&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;,
+it started to ruin peoples’ anonymity once &lt;em&gt;mainstream&lt;&#x2F;em&gt; social media platforms started to implement it; some of them
+applying it globally (looking at you, Roblox).&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;control&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#control&quot; aria-label=&quot;Anchor link for: control&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Control&lt;&#x2F;h1&gt;
+&lt;p&gt;When a big country invents a crazy idea, countries copy it. For governments, &lt;abbr title=&quot;Kids Online Safety Act&quot;&gt;KOSA&lt;&#x2F;abbr&gt;
+is &lt;em&gt;the&lt;&#x2F;em&gt; golden ticket to gain control over their people. What could go wrong, really?&lt;br &#x2F;&gt;
+If anyone asks anything, you just slap a word salad containing “kids, security, online
+safety” with some extra &lt;em&gt;spices&lt;&#x2F;em&gt; on top.
+If people start to seriously rebel against it, you can just enforce it more because
+you can just say “children need safety and we’re just &lt;em&gt;bringing&lt;&#x2F;em&gt; that to you, we
+are not trying to control anyone”.
+There you go; problem solved, you can now do whatever you want.&lt;&#x2F;p&gt;
+&lt;p&gt;The worst part is: This is all done, just to control what and who people can see.&lt;&#x2F;p&gt;
+&lt;p&gt;This &lt;strong&gt;is&lt;&#x2F;strong&gt; a problem. This needs to be solved and giving up your credentials is not the way.
+That would be like saying “I don’t have anything to hide”– you do, You’re acting it cool because you want to look cool!&lt;br &#x2F;&gt;
+Do you know what could happen if your entire ID card
+&lt;small&gt;&lt;span class=&quot;spoiler&quot;&gt;(or Social Security Card for FREEDOM people)&lt;&#x2F;span&gt;&lt;&#x2F;small&gt;
+gets leaked? I don’t know the specifics for your country, but first thing that would happen is
+&lt;u class=&quot;flat&quot;&gt;you would&lt;&#x2F;u&gt; &lt;strong&gt;&lt;u&gt;shit&lt;&#x2F;u&gt; &lt;u class=&quot;flat&quot;&gt;your pants&lt;&#x2F;u&gt;&lt;&#x2F;strong&gt;
+because identities are not something you can lose that easily without getting penaltized; and
+&lt;strong&gt;you know it&lt;&#x2F;strong&gt;. You &lt;strong&gt;would not&lt;&#x2F;strong&gt; give your stuff just to get it stolen, no? Guess what, thousands
+of &lt;em&gt;poor&lt;&#x2F;em&gt; souls didn’t think this thoroughly and got their information stolen because the companies
+that provide these services &lt;strong&gt;did not&lt;&#x2F;strong&gt; care enough to delete these data after they’ve been done with
+processing your information
+–&lt;small&gt;unlike what these shitty, fuckass &lt;abbr title=&#x27;Very spiteful way of saying &quot;corporations&quot;&#x27;&gt;
+corpos&lt;&#x2F;abbr&gt; said&lt;&#x2F;small&gt;– and to make it worse, these were not even safely storaged — and &lt;strong&gt;this&lt;&#x2F;strong&gt;
+is the reason that these people were shocked to see their shit leaked when they woke up and saw the news.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;epilogue&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#epilogue&quot; aria-label=&quot;Anchor link for: epilogue&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Epilogue&lt;&#x2F;h1&gt;
+&lt;p&gt;Restrictions. If there’s a reason for their often negative image, then it must be because of actions like this.
+Funnily enough, the main point of “cHiLd SaFeTy” act wasn’t the restriction itself; rather it was the negative
+side effects. Negative side effects that are by no means a joke.&lt;&#x2F;p&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;These happened for some reasons I cannot disclose here, at least without
+getting my ass in jail and ruining my life, unfortunately. &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt; &lt;a href=&quot;#fr-1-2&quot;&gt;↩2&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;section&gt;
+</description>
+      </item>
+      <item>
+          <title>Back to Home: Ametrine vs Static File Deployment</title>
+          <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+          <author>anins1der</author>
+          <link>https://anins1der.com/blog/home/</link>
+          <guid>https://anins1der.com/blog/home/</guid>
+          <description xml:base="https://anins1der.com/blog/home/">&lt;p&gt;Over the past few months, I have been pushing myself to do &lt;em&gt;something original&lt;&#x2F;em&gt; for my website; and I have failed miserably.
+Like, nginx was pain in the ass, I couldn’t get simple-web-server to work the way I wanted: and the issue was — &lt;em&gt;drum roll&lt;&#x2F;em&gt; — I couldn’t get my website to display &lt;em&gt;nicer links&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nicer-links&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#nicer-links&quot; aria-label=&quot;Anchor link for: nicer-links&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+Nicer links&lt;&#x2F;h2&gt;
+&lt;p&gt;What do I mean by “&lt;em&gt;nicer link&lt;&#x2F;em&gt;“s, exactly? You probably seen this before: When you take a look at your URL bar, most sites hide the extension of your page so it looks nicer.&lt;&#x2F;p&gt;
+&lt;aside&gt;
+&lt;img class=&quot;&quot;alt=&quot;Notice how the URL bar doesn&amp;#x27;t have an file extensions&quot;src=&quot;link.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Notice how the URL bar doesn&#x27;t have an file extensions&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;aside&gt;
+&lt;p&gt;…I messed up so bad that I couldn’t do it — like, you &lt;strong&gt;had to&lt;&#x2F;strong&gt; put .html at the end just to see the contents; and doing that doesn’t trigger page transitions :(&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;small&gt;Yep, that’s why I gave up on writing bare HTML and CSS—&lt;&#x2F;small&gt; &lt;img
+		class=&quot;emoji &quot;
+		src=&quot;&#x2F;emoji&#x2F;neofax_floof_explode.webp&quot;
+		title=&quot;oopsies, ig&quot;
+		width=&quot;24&quot;
+		height=&quot;24&quot;
+	&#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zola&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#zola&quot; aria-label=&quot;Anchor link for: zola&quot;&gt;&lt;i class=&quot;icon link&quot; style=&quot;--icon: url(&#x27;data:image&#x2F;svg+xml,%3Csvg%20role%3D%22img%22%20xmlns%3D%22http%3A&amp;#x2F;&amp;#x2F;www.w3.org&amp;#x2F;2000&amp;#x2F;svg%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20d%3D%22M117.18%2C188.74a12%2C12%2C0%2C0%2C1%2C0%2C17l-5.12%2C5.12A58.26%2C58.26%2C0%2C0%2C1%2C70.6%2C228h0A58.62%2C58.62%2C0%2C0%2C1%2C29.14%2C127.92L63.89%2C93.17a58.64%2C58.64%2C0%2C0%2C1%2C98.56%2C28.11%2C12%2C12%2C0%2C1%2C1-23.37%2C5.44%2C34.65%2C34.65%2C0%2C0%2C0-58.22-16.58L46.11%2C144.89A34.62%2C34.62%2C0%2C0%2C0%2C70.57%2C204h0a34.41%2C34.41%2C0%2C0%2C0%2C24.49-10.14l5.11-5.12A12%2C12%2C0%2C0%2C1%2C117.18%2C188.74ZM226.83%2C45.17a58.65%2C58.65%2C0%2C0%2C0-82.93%2C0l-5.11%2C5.11a12%2C12%2C0%2C0%2C0%2C17%2C17l5.12-5.12a34.63%2C34.63%2C0%2C1%2C1%2C49%2C49L175.1%2C145.86A34.39%2C34.39%2C0%2C0%2C1%2C150.61%2C156h0a34.63%2C34.63%2C0%2C0%2C1-33.69-26.72%2C12%2C12%2C0%2C0%2C0-23.38%2C5.44A58.64%2C58.64%2C0%2C0%2C0%2C150.56%2C180h.05a58.28%2C58.28%2C0%2C0%2C0%2C41.47-17.17l34.75-34.75a58.62%2C58.62%2C0%2C0%2C0%2C0-82.91Z%22&amp;#x2F;%3E%3C&amp;#x2F;svg%3E&#x27;);&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;
+New error, “new” setup&lt;&#x2F;h2&gt;
+&lt;p&gt;If you’ve been following my website lately, chances are you might have &lt;em&gt;seen&lt;&#x2F;em&gt; this layout appear before (along with random nginx brainfarts). As the footer &lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; below here says, this website runs on Zola (a simple, but templatable static site generator written in Rust); and on top of that Ametrine lies there.
+Ametrine is &lt;small&gt;(&lt;strong&gt;not&lt;&#x2F;strong&gt;)&lt;&#x2F;small&gt; a complete theme with a medium-sized feature set, designed to work with Zola and it’s limitations.&lt;&#x2F;p&gt;
+&lt;p&gt;I’m not exactly the guy that understands things or anything, it’s just that I take readily avaiable stuff from people, modify them a litte bit, “cry” about them not being original and go forward — oh look, I dont know how these got broken, &lt;em&gt;at all&lt;&#x2F;em&gt;!&lt;&#x2F;p&gt;
+&lt;!-- other values (transparent,no_hover,pixels,drop_shadow) can be set with *value*=true --&gt;
+&lt;img class=&quot;full&quot;alt=&quot;...how?&quot;src=&quot;bradar.png&quot;&#x2F;&gt;&lt;figcaption&gt;...how?&lt;&#x2F;figcaption&gt;
+&lt;!-- other values (transparent,no_hover,pixels,drop_shadow) can be set with *value*=true --&gt;
+&lt;img class=&quot;&quot;alt=&quot;Huhh??&quot;src=&quot;ayee.png&quot;&#x2F;&gt;&lt;figcaption&gt;Huhh??&lt;&#x2F;figcaption&gt;
+&lt;p&gt;…you probably get the idea. I guess it’s time to redo the entirety of the blog from ground up, maybe I’ll clean up every &lt;span class=&quot;snug&quot;&gt;nook&lt;&#x2F;span&gt; and cranny of this thingamabob while I’m at it &lt;small&gt;(lol)&lt;&#x2F;small&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;markdown-alert-important&quot;&gt;
+&lt;p&gt;T’is painful.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-caution&quot;&gt;
+&lt;p&gt;I took a long time to get stuff back up, not including the time I didn’t do anthing related to this blog (&lt;span class=&quot;spoiler&quot;&gt;of course I did &lt;em&gt;p r o c r a s t i n a t e&lt;&#x2F;em&gt;&lt;&#x2F;span&gt;)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Hi from a few days later. I finally got my shit back up and running. Everything’s fine. I mean, you can read this in a nice looking theme, so it’s a big pass to me.&lt;br &#x2F;&gt;
+It’s time for me to get this boy deployed on my Dokploy stack :)&lt;&#x2F;p&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;Well hello there, thanks for taking the quick ride to the footer! &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;section&gt;
+</description>
+      </item>
+    </channel>
+</rss>
