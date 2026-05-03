@@ -9,19 +9,7 @@ author = "anins1der"
 compile_sass = true
 build_search_index = true
 minify_html = true
-generate_feeds = true
 feed_filenames = ["atom.xml", "rss.xml"]
-
-# Based on https://github.com/welpo/tabi
-
-# To translate the entire theme, there must be a file with the same ISO 639-1
-# or BCP 47 language code in the "i18n" directory of your site or the Ametrine
-# theme, for example, "i18n/fr.toml" for French or "i18n/zh-Hans.toml" for
-# Simplified Chinese, otherwise the theme will be in English.
-
-# ISO 639-1: https://localizely.com/iso-639-1-list/
-# BCP 47: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-default_language = "en"
 
 taxonomies = [
   { name = "tags", feed = true, paginate_by = 10 },
@@ -34,6 +22,7 @@ bottom_footnotes = true
 external_links_class = "external"
 github_alerts = true
 insert_anchor_links = "left"
+render_emoji = true
 
 [markdown.highlighting]
 # Whether to do syntax highlighting
