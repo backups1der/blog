@@ -1,7 +1,8 @@
 # The URL the site will be built for
-base_url = "/"
+base_url = "https://anins1der.com"
 title = "blo(c)k"
-description = "Personal blog of someone named anins1der's; about tech, programming, and other shit."
+# old one: "Personal blog of someone named anins1der's; about tech, programming, and other shit."
+description = "A place where you can read a crazed 17 yo's unfiltered thoughts and torture yourself while at it."
 
 theme = "ametrine"
 author = "anins1der"
