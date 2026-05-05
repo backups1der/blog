@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://anins1der.com"
+base_url = "/"
 title = "blo(c)k"
 # old one: "Personal blog of someone named anins1der's; about tech, programming, and other shit."
 description = "A place where you can read a crazed 17 yo's unfiltered thoughts and torture yourself while at it."
@@ -194,8 +194,8 @@ icon = "dowg.png"
 # letters of the link name will be used instead.
 # Any icon name from https://phosphoricons.com can be used.
 links = [
-    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
-    { url = "@/about/_index.md", name = "About me", icon = "user" },
+  { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+  { url = "@/about/_index.md", name = "About me", icon = "user" },
 ]
 
 [extra.footer]
@@ -223,7 +223,7 @@ show_timestamp = true
 # - random   (optional)
 # "$HOST" can be used to insert config.base_url with "https://" stripped away.
 webrings = [
-  { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/$HOST/previous", next = "https://snugnook.org/ring/$HOST/next", random = "https://snugnook.org/ring/random" },
+  { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/anins1der.com/previous", next = "https://snugnook.org/ring/anins1der.com/next", random = "https://snugnook.org/ring/random" },
 ]
 
 note = "<small>I am designed to not give a fuck about stuff that I don't really care, so I don't give a fuck about my rights being \"rEsErVeD\" or some shit like that. If you want an license then just check [The Unlicense Page](/licence) <span class=spoiler>that is SECRETT!! OOOOO--</span></small>"
