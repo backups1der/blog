@@ -75,7 +75,6 @@ collections:
           - label: Banner
             name: banner
             widget: image
-            allow_multiple: false
             choose_url: false
             required: false
 
