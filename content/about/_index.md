@@ -12,14 +12,15 @@ I am a 16 years old idiot who "codes", draws and writes 24/7 {{ sticker(path="/e
 
 Oh if you wanna say anything about me then you can just <abbr title="Script stolen from https://azumanga.gay btw">type it below</abbr>
 
-Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}
+~~Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}~~  
+Guess what, I got this thingy up again (lol)
 
-***
+<!-- <input disabled class="ntfy-msg" id="ntfy-msg" placeholder="Ananas yo' ducks so that I will be free to eat glass."> -->
 
 <div class="ntfy-er">
   <div class="msgbar">
-    <input disabled class="ntfy-msg" id="ntfy-msg" placeholder="Ananas yo' ducks so that I will be free to eat glass.">
-    <button disabled class="submit" onclick="javascript:sendNotification()"> 🍍 your 🪿</button>
+    <input class="ntfy-msg" id="ntfy-msg" placeholder="Send a notification that directly comes to my laptop!">
+    <button class="submit" onclick="javascript:sendNotification()">funny bnuuy</button>
   </div>
 </div>
 
@@ -29,7 +30,7 @@ Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked
   // stolen ntfy script
   function send(message) {
     let r = new XMLHttpRequest()
-    r.open("POST", "https://ntfy.anins1der.com/website-en", true)
+    r.open("POST", "https://ntfy.anins1der.com/website", true)
     r.setRequestHeader("Content-Type", "text/plain")
     r.send(message)
   }
