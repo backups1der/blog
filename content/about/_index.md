@@ -14,28 +14,15 @@ Oh if you wanna say anything about me then you can just <abbr title="Script stol
 
 Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}
 
-<!-- {{ ntfy(url="ntfy.anins1der.com", channel="website" placeholder="plecaholder", button_text="sned") }} -->
-
-{{ ntfy }}  
-{{ sticker(path="/emoji/neofax_floof_explode.webp", name="neofah", big=false) }}
-
-
-<!-- Ananas yo' ducks so that I will be free to eat glass. -->
-<!-- 🍍 your 🪿 -->
-
 ***
 
-```html
 <div class="ntfy-er">
   <div class="msgbar">
     <input disabled class="ntfy-msg" id="ntfy-msg" placeholder="Ananas yo' ducks so that I will be free to eat glass.">
     <button disabled class="submit" onclick="javascript:sendNotification()"> 🍍 your 🪿</button>
   </div>
 </div>
-```
 
-
-```javascript
 <script>
   // stolen from azumanga.gay lel
 
@@ -54,4 +41,3 @@ Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked
     ntfyInput.value = ""
   }
 </script>
-```
