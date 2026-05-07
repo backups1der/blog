@@ -125,23 +125,23 @@ collections:
         name: body
         widget: markdown
 
-  # - label: Nanolog
-  #   name: nanolog
-  #   folder: content/nanolog
-  #   create: true
-  #   format: toml-frontmatter
-  #   path: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   fields:
-  #     - label: Title
-  #       name: title
-  #       widget: string
-  #     - label: Date
-  #       name: date
-  #       widget: datetime
-  #     - label: Updated
-  #       name: updated
-  #       widget: datetime
-  #       required: false
-  #     - label: Body
-  #       name: body
-  #       widget: markdown
+  - label: Nanolog
+    name: nanolog
+    folder: content/nanolog
+    create: true
+    format: toml-frontmatter
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Updated
+        name: updated
+        widget: datetime
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
