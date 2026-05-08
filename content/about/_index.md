@@ -7,13 +7,14 @@ generate_feeds = true
 no_header = true
 +++
 
-## Hi, my name's <span class="rainbow">anins1der</span>
+# Hi, my name's <span class="rainbow">anins1der</span>
 I am a 16 years old idiot who "codes", draws and writes 24/7 {{ sticker(path="/emoji/trolley.png", name="trolley") }}
 
+## Send me a message:
 Oh if you wanna say anything about me then you can just <abbr title="Script stolen from https://azumanga.gay btw">type it below</abbr>
 
-~~Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}~~  
-Guess what, I got this thingy up again (lol)
+> ~~Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}~~  
+> Guess what, I got this thingy up again (lol)
 
 <!-- <input disabled class="ntfy-msg" id="ntfy-msg" placeholder="Ananas yo' ducks so that I will be free to eat glass."> -->
 
@@ -42,3 +43,5 @@ Guess what, I got this thingy up again (lol)
     ntfyInput.value = ""
   }
 </script>
+
+<figcaption>Psst hey, you can check what others have sent to me <a href="https://ntfy.anins1der.com/website">right here</a>!</figcaption>
