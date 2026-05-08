@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: backupd1der/blog
+  repo: backups1der/blog
 
 media_folder: static/assets
 public_folder: /assets
