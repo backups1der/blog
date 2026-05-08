@@ -2,10 +2,10 @@
 
 backend:
   name: github
-  repo: backups1der/blog
+  repo: backupd1der/blog
 
 media_folder: static/assets
-public_folder: /media
+public_folder: /assets
 
 collections:
   - label: Blog
@@ -42,11 +42,11 @@ collections:
         widget: datetime
         required: false
       - label: Tags
-        name: taxonomies.tags
+        name: tags
         widget: list
         default: []
       - label: Categories
-        name: taxonomies.categories
+        name: categories
         widget: list
         default: []
       - label: Extra
