@@ -45,3 +45,5 @@ Oh if you wanna say anything about me then you can just <abbr title="Script stol
 </script>
 
 <figcaption>Psst hey, you can check what others have sent to me <a href="https://ntfy.anins1der.com/website">right here</a>!</figcaption>
+<span class=spoiler><figcaption>...oh and also, <a href="https://daudix.one/home/g.mp4">g</a>-</figcaption></span>
+<!-- https://daudix.one/home/g.mp4 -->
