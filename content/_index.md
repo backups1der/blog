@@ -1,6 +1,5 @@
 +++
 title = "Hoem Paeg"
-description = "Entrance to hell of mine (muehehehe)"
 [extra]
 # scripts = ["home/shy.js"]
 no_header = true
@@ -37,11 +36,14 @@ Yep, this was the coolest name I got from my friends when I asked about this
 blog's name <small>uhhuh, best name I got was literally just _block_
 ._.</small>.
 
-It was actually called "blok", but uh\
-I am a Turkish entity who has Turkish "friends", so considering that _and_ the
-Turkish translation, I _slightly_ modified the name and took it
-<span class="spoiler">{{ sticker(path="/emoji/trolley.png", name=":trolley:",
-big=false) }}</span>.
+> It was actually called "blok", but uh  
+> I am a Turkish entity who has Turkish "friends", so considering that _and_ the
+> Turkish translation, I _slightly_ modified the name and took it
+> <span class="spoiler">{{ sticker(path="/emoji/trolley.png", name=":trolley:", big=false) }}</span>
+
+About *that*, it was causing problems with my website
+<span class="spoiler"><small>aaand my classmates wanted to read *everything* I wrote here so I just removed the English part entirely</small></span>
+
 
 # Huge thanks to
 
