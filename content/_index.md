@@ -6,9 +6,9 @@ no_header = true
 +++
 
 <div class="container-fill">
-
-  # Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} )</span>
-
+  <h1 class="title">Ey, I'm anins1der
+    <span class="rainbow">( {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} )</span>
+  </h1>
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects.
 
   I am the guy that wrote stuff here (no shit), added a few custom functionalies
