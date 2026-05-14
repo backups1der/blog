@@ -6,22 +6,18 @@ no_header = true
 +++
 
 <div class="container-fill">
-  <div>
-  <div id="title">
 
-# Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} )</span>
+  # Ey, I'm anins1der <span class="rainbow">( {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} )</span>
 
-</div>
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects.
 
-I am the guy that wrote stuff here (no shit), added a few custom functionalies
-and ~~wrote~~ stole some styling from my friends' blogs that used this very same
-theme.
+  I am the guy that wrote stuff here (no shit), added a few custom functionalies
+  and ~~wrote~~ stole some styling from my friends' blogs that used this very same
+  theme.
 
-<div class="buttons start big">
+  <div class="buttons start big">
     <a href="#welcome" class="suggested">Welcome ↓</a>
     <a href="/about#right" class="">About me →</a>
-  </div>
   </div>
 </div>
 
