@@ -21,7 +21,7 @@ no_header = true
   </div>
 </div>
 
-<img id="character" width="500" class="transparent no-hover" src="home/thing.gif" alt='Parappa doing "Hey" animation from a FNF mod'>
+<!-- <img id="character" width="500" class="transparent no-hover" src="home/thing.gif" alt='Parappa doing "Hey" animation from a FNF mod'> -->
 <!-- I'm <abbr title="hmmmm"> -->
 <!-- <button id="funni">shy</button> -->
 <!-- </abbr> -->
